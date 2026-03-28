@@ -1,0 +1,3002 @@
+{
+  "api": "opp.selection.newproduct.report",
+  "version": "1.0",
+  "resultCode": "SUCCESS",
+  "requestId": "213e049a17738275315838728e0d45",
+  "result": {
+    "data": {
+      "keywordSummary": {
+        "summary": "##### 1. 市场机会总结\n\n- **市场评级**：✅推荐进入。[高需求高增长但新品机会稀缺，需差异化突围]  \n\n- **市场总结**：该关键词市场处于高热度、高销量的成熟增长阶段，但新品贡献极低、品牌集中度高，新进入者需依靠产品力或细分场景实现错位竞争。\n\n##### 2. 市场情况分析\n- **供给情况**：在售商品数量过剩，**落后于82%的同类市场**；品牌垄断系数较高（0.67），**落后于74%的同类市场**，表明头部品牌主导明显；新品销量占比仅3.46%，**落后于95%的同类市场**，市场迭代缓慢，新卖家突围难度大。\n\n- **需求情况**：Amazon搜索排名稳定在Top 2500以内，2月达近一年峰值（排名1912），显示**强劲且持续的站内需求**；Google Trends近12个月热度稳步攀升，2026年2月达100峰值，当前仍处高位（84），表明**全网关注度处于成熟高位，非短期热点**，无明显季节性衰退迹象。\n\n- **商品销售情况**：近30天销量达22万件，销售额近5000万美元，**优于95%的同类市场**；销量与销售额环比均增长约8.7%，**优于95%的同类市场**，显示市场仍具显著增长动能，处于稳健扩张阶段。",
+        "keywordLevelDetail": {
+          "valueLevelDesc": "##### 1. 市场机会总结\n\n- **市场评级**：✅推荐进入。[高需求高增长但新品机会稀缺，需差异化突围]  \n\n- **市场总结**：该关键词市场处于高热度、高销量的成熟增长阶段，但新品贡献极低、品牌集中度高，新进入者需依靠产品力或细分场景实现错位竞争。\n\n##### 2. 市场情况分析\n- **供给情况**：在售商品数量过剩，**落后于82%的同类市场**；品牌垄断系数较高（0.67），**落后于74%的同类市场**，表明头部品牌主导明显；新品销量占比仅3.46%，**落后于95%的同类市场**，市场迭代缓慢，新卖家突围难度大。\n\n- **需求情况**：Amazon搜索排名稳定在Top 2500以内，2月达近一年峰值（排名1912），显示**强劲且持续的站内需求**；Google Trends近12个月热度稳步攀升，2026年2月达100峰值，当前仍处高位（84），表明**全网关注度处于成熟高位，非短期热点**，无明显季节性衰退迹象。\n\n- **商品销售情况**：近30天销量达22万件，销售额近5000万美元，**优于95%的同类市场**；销量与销售额环比均增长约8.7%，**优于95%的同类市场**，显示市场仍具显著增长动能，处于稳健扩张阶段。",
+          "valueLevelType": "KEYWORD_LEVEL",
+          "valueLevel": "GOOD",
+          "text": "推荐进入",
+          "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+        },
+        "class": "com.alibaba.global1688.ai.sel.api.hsf.response.KeywordSummaryApiVO",
+        "keywordIndexesInfo": {
+          "supplyInfo": {
+            "cnSellerPct": {
+              "name": "中国卖家占比",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "低竞争：试错成本低，微调设计即可快速占领蓝海市场;\\n中低竞争：改款竞争压力小，小幅创新能建立产品优势;\\n中高竞争：普遍同质，改款必须带来明显感知差异;\\n竞争激烈：常规改款难以突围，利润空间已被极致压缩",
+                "valueLevelType": "CN_SELLER_PCT",
+                "valueLevel": "MEDIUM",
+                "text": "中高竞争",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": "53.4%",
+              "desc": "中国卖家个数占比=中国卖家个数/关键词召回商品的所属卖家个数"
+            },
+            "brandMonopolyCoefficient": {
+              "name": "品牌垄断系数",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "白牌为主：无强势品牌，新品牌可低成本切入;\\n品牌分散：多品牌共存，尚未形成集中格局;\\n品牌集中：少数品牌主导市场，新品牌需建立信任;\\n品牌垄断：大品牌高度控盘，新品进入难度极高",
+                "valueLevelType": "BRAND_MONOPOLY_COEFFICIENT",
+                "valueLevel": "MEDIUM",
+                "text": "品牌集中",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": "66.7%",
+              "desc": "品牌垄断系数=Top3销售品牌的月销量总和/关键词召回商品的月销量总和"
+            },
+            "newProductSalesPct": {
+              "name": "新品成交占比",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "新品易入：新品驱动市场，机会窗口明确;\\n新品较易：新品有一定份额，接受度良好;\\n机会一般：老品主导，新品需耐心培育;\\n极难突围：新品贡献微弱，市场固化，迭代缓慢",
+                "valueLevelType": "NEW_ITEM_SALE_RATE",
+                "valueLevel": "BAD",
+                "text": "较难突围",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": "3.5%",
+              "desc": "新品销量占比 = 新品商品的月销量总和/关键词召回商品商品的月销量总和"
+            },
+            "ratingAvg": {
+              "name": "商品平均评分",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "口碑极佳：用户满意度高，但心智固化超越不易;\\n口碑良好：体验稳定，适合稳健入场;\\n口碑一般：存在改进空间，优质新品可实现降维打击;\\n口碑欠佳：普遍体验差，若能提供更好产品即有机会",
+                "valueLevelType": "RATING_AVG",
+                "valueLevel": "BAD",
+                "text": "口碑欠佳",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": "3.71",
+              "desc": "关键词下商品平均评分，可用于了解该细分市场中商品的消费者满意情况"
+            },
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SupplyInfoApiVO",
+            "itemMonopolyCoefficient": {
+              "name": "商品垄断系数",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "低垄断：无明显爆款主导，新品起量容易;\\n中低垄断：头部商品有优势，但未形成绝对壁垒;\\n中高垄断：少数爆款占据大量销量，新品需强差异化;\\n高垄断：极度依赖头部单品，新品几乎无法突围",
+                "valueLevelType": "ITEM_MONOPOLY_COEFFICIENT",
+                "valueLevel": "BEST",
+                "text": "低垄断",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": "15.4%",
+              "desc": "商品垄断系数 = Top5销量商品的月销量总和/关键词召回商品的月销量总和"
+            },
+            "itemCount": {
+              "name": "在售商品数",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "供给稀缺：商品极少，可能是蓝海或高门槛细分市场;\\n供给偏少：竞争较弱，新品有机会快速占位;\\n供给适中：供需平衡，需靠产品力或运营突围;\\n供给过剩：商品饱和，红海竞争，长尾生存难",
+                "valueLevelType": "ITEM_CNT",
+                "valueLevel": "BAD",
+                "text": "供给过剩",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": "1.2w+",
+              "desc": "关键词在该国亚马逊召回的代表性商品数量"
+            }
+          },
+          "googleTrends": {
+            "keywordCn": "手机",
+            "searchVolume": "2月",
+            "trendsIsBiggerHigher": true,
+            "searchVolumeDesc": "搜索峰值月（最近12个月）",
+            "trendsDesc": "近12个月Google搜索趋势",
+            "keyword": "phone",
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.KeywordGoogleTrendsApiVO",
+            "trends": [
+              {
+                "x": "250316-250322",
+                "y": 69.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250323-250329",
+                "y": 65.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250330-250405",
+                "y": 70.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250406-250412",
+                "y": 70.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250413-250419",
+                "y": 71.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250420-250426",
+                "y": 64.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250427-250503",
+                "y": 72.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250504-250510",
+                "y": 70.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250511-250517",
+                "y": 70.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250518-250524",
+                "y": 70.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250525-250531",
+                "y": 74.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250601-250607",
+                "y": 80.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250608-250614",
+                "y": 74.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250615-250621",
+                "y": 79.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250622-250628",
+                "y": 79.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250629-250705",
+                "y": 74.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250706-250712",
+                "y": 91.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250713-250719",
+                "y": 95.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250720-250726",
+                "y": 91.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250727-250802",
+                "y": 88.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250803-250809",
+                "y": 84.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250810-250816",
+                "y": 84.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250817-250823",
+                "y": 79.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250824-250830",
+                "y": 80.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250831-250906",
+                "y": 77.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250907-250913",
+                "y": 75.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250914-250920",
+                "y": 76.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250921-250927",
+                "y": 81.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "250928-251004",
+                "y": 79.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "251005-251011",
+                "y": 80.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "251012-251018",
+                "y": 84.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "251019-251025",
+                "y": 85.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "251026-251101",
+                "y": 80.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "251102-251108",
+                "y": 83.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "251109-251115",
+                "y": 80.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "251116-251122",
+                "y": 83.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "251123-251129",
+                "y": 77.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "251130-251206",
+                "y": 84.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "251207-251213",
+                "y": 86.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "251214-251220",
+                "y": 82.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "251221-251227",
+                "y": 82.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "251228-260103",
+                "y": 84.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "260104-260110",
+                "y": 86.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "260111-260117",
+                "y": 89.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "260118-260124",
+                "y": 88.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "260125-260131",
+                "y": 95.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "260201-260207",
+                "y": 100.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "260208-260214",
+                "y": 88.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "260215-260221",
+                "y": 84.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              }
+            ],
+            "trendsPointName": "搜索指数"
+          },
+          "platform": "amazon",
+          "keywordCn": "手机",
+          "oppScoreDesc": "击败同一级类目94.2%关键词",
+          "radar": {
+            "propertyList": [
+              {
+                "name": "市场需求分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 43.65
+              },
+              {
+                "name": "市场供给分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 46.3
+              },
+              {
+                "name": "市场销售分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 44.6
+              },
+              {
+                "name": "新品分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 10.1
+              },
+              {
+                "name": "评价分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 86.7
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO",
+            "radarDescription": "通过该关键词的搜索量、销售额、在售商品数、平均评分、垄断系数等指标综合得出。机会分越高则该关键词代表的细分市场机会越大。"
+          },
+          "oppScore": "37.2",
+          "profitInfo": {
+            "priceAvg": {
+              "name": "平均价格",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高：高端市场，重品牌与信任，利润高但门槛高;\\n较高：中高价带，用户愿为品质付费，需突出价值;\\n适中：主流价格带，兼顾利润与走量，适合多数卖家;\\\\n较低：低价竞争，依赖规模或供应链优势",
+                "valueLevelType": "PRICE_AVG",
+                "valueLevel": "GOOD",
+                "text": "较高",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": {
+                "amount": "254.71",
+                "currencySymbol": "US$",
+                "amountWithSymbol": "US$254.71"
+              },
+              "desc": "平均价格=月销售额/月销量，可用于了解该细分市场中普遍商品的价格水平"
+            },
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ProfitInfoApiVO"
+          },
+          "salesInfo": {
+            "soldCnt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "8.8%",
+                "direction": "UP"
+              },
+              "name": "30天销量",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": "22w+",
+              "desc": "关键词在该国亚马逊最近30天的累计销量"
+            },
+            "soldAmt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "8.7%",
+                "direction": "UP"
+              },
+              "name": "30天销售额",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D_AMT",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": {
+                "amount": "4952.5w+",
+                "currencySymbol": "US$",
+                "amountWithSymbol": "US$4952.5w+"
+              },
+              "desc": "关键词在该国亚马逊最近30天的累计销售额"
+            },
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SalesInfoApiVO"
+          },
+          "demandInfo": {
+            "searchRankDesc": "最新1个月亚马逊搜索排名",
+            "rankTrendsPointName": "排名",
+            "searchRank": "# 2.5k+",
+            "rankTrendsDesc": "近12个月亚马逊搜索排名趋势",
+            "rankTrends": [
+              {
+                "x": "202503",
+                "y": 2200.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202504",
+                "y": 2179.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202505",
+                "y": 2172.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202506",
+                "y": 2321.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202507",
+                "y": 2315.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202508",
+                "y": 2260.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202509",
+                "y": 2212.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202510",
+                "y": 2572.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202511",
+                "y": 1912.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202512",
+                "y": 2655.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202601",
+                "y": 2866.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202602",
+                "y": 2479.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.DemandInfoApiVO"
+          },
+          "keyword": "phone",
+          "region": "US",
+          "class": "com.alibaba.global1688.ai.sel.api.hsf.response.KeywordAmazonApiVO"
+        }
+      },
+      "class": "com.alibaba.global1688.ai.sel.api.hsf.response.NewProductReportExecuteApiResponse",
+      "productList": [
+        {
+          "spRatingAvg": "3.2",
+          "onShelfDays": 48,
+          "radarVO": {
+            "propertyList": [
+              {
+                "name": "市场需求分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 94.1
+              },
+              {
+                "name": "市场供给分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 59.5
+              },
+              {
+                "name": "市场销售分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 54.3
+              },
+              {
+                "name": "评价分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 80.1
+              },
+              {
+                "name": "新品分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 63.9
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO",
+            "radarDescription": "通过该商品的搜索量、销售额、在售商品数、平均评分、垄断系数等指标综合得出。机会分越高则该商品代表的细分市场机会越大。"
+          },
+          "ratingRange": "3.2",
+          "title": "Magnetic Phone Vlog Selfie Monitor Screen - Back Camera Selfie Monitor - 1080P Display can Wirelessly Connect to Mobile Phones - Rear Camera Selfie Screen with Remote Controller(Grey)",
+          "platform": "amazon",
+          "oppScoreDesc": "击败 99.1% 商品",
+          "spSoldCnt30d": "156",
+          "reviewCnt": 9,
+          "oppScore": "68.75",
+          "sameCateHotSaleList": [
+            {
+              "spInfo": {
+                "launchDays": 147,
+                "launchTime": "2025-10-22",
+                "spRatingMin": 1.0,
+                "spRatingMax": 5.0,
+                "spRatingMid": 3.8,
+                "spPriceMin": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "3.99",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD3.99"
+                  },
+                  "desc": "簇内最低价"
+                },
+                "spPriceMax": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "1319.96",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD1319.96"
+                  },
+                  "desc": "簇内最高价"
+                },
+                "spItmMidPrice": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "3000.5",
+                    "currencySymbol": "￥",
+                    "amountWithSymbol": "￥3000.5"
+                  },
+                  "desc": "簇内平均价"
+                },
+                "spItmCnt": 81,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SpInfoApiVO",
+                "spId": "-609961944"
+              },
+              "soldCnt30d": "10779",
+              "onShelfDays": 1588,
+              "productId": "amazon-美国-B0BGQMSXYC",
+              "regionCn": "美国",
+              "spItemCnt": 81,
+              "ratingRange": "4.1",
+              "catePath": "Cell Phones & Accessories->Cell Phones",
+              "title": "Apple iPhone 13, 128GB, Midnight - Unlocked (Renewed)",
+              "platform": "amazon",
+              "reviewCnt": 1474,
+              "mainImgUrl": "https://image-transform.oss-accelerate.aliyuncs.com/bddf1f90db744e35881c1103edfd5c15",
+              "onShelfDate": "2021-11-11",
+              "productUrl": "https://www.amazon.com/dp/B09LNW3CY2/",
+              "soldCntHisByM": [
+                {
+                  "timeScale": "month",
+                  "trendValue": "18826.0",
+                  "timeValue": "202503",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "19910.0",
+                  "timeValue": "202504",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "10413.0",
+                  "timeValue": "202505",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "18986.0",
+                  "timeValue": "202506",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "14914.0",
+                  "timeValue": "202507",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "10291.0",
+                  "timeValue": "202508",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "8842.0",
+                  "timeValue": "202509",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "10850.0",
+                  "timeValue": "202510",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "11783.0",
+                  "timeValue": "202511",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "17037.0",
+                  "timeValue": "202512",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "8312.0",
+                  "timeValue": "202601",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "9295.0",
+                  "timeValue": "202602",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                }
+              ],
+              "region": "US",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiNormalProductVO",
+              "priceRange": "US$245.3~US$472.99"
+            },
+            {
+              "spInfo": {
+                "launchDays": 614,
+                "launchTime": "2024-07-12",
+                "spRatingMin": 3.5,
+                "spRatingMax": 5.0,
+                "spRatingMid": 4.1,
+                "spPriceMin": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "139",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD139"
+                  },
+                  "desc": "簇内最低价"
+                },
+                "spPriceMax": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "1192.25",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD1192.25"
+                  },
+                  "desc": "簇内最高价"
+                },
+                "spItmMidPrice": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "2193.17",
+                    "currencySymbol": "￥",
+                    "amountWithSymbol": "￥2193.17"
+                  },
+                  "desc": "簇内平均价"
+                },
+                "spItmCnt": 14,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SpInfoApiVO",
+                "spId": "-1648697563"
+              },
+              "soldCnt30d": "9757",
+              "onShelfDays": 1931,
+              "productId": "amazon-美国-B0GQZQ724D",
+              "regionCn": "美国",
+              "spItemCnt": 14,
+              "ratingRange": "4.0",
+              "catePath": "Cell Phones & Accessories->Cell Phones",
+              "title": "Apple iPhone 12, 64GB, Black - Fully Unlocked (Renewed)",
+              "platform": "amazon",
+              "reviewCnt": 3012,
+              "mainImgUrl": "https://image-transform.oss-accelerate.aliyuncs.com/9dd0c3b510ed41d49a4af635d78fbf4e",
+              "onShelfDate": "2020-12-03",
+              "productUrl": "https://www.amazon.com/dp/B08PP5MSVB/",
+              "soldCntHisByM": [
+                {
+                  "timeScale": "month",
+                  "trendValue": "12915.0",
+                  "timeValue": "202503",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "13744.0",
+                  "timeValue": "202504",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "7853.0",
+                  "timeValue": "202505",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "15476.0",
+                  "timeValue": "202506",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "20495.0",
+                  "timeValue": "202507",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "21170.0",
+                  "timeValue": "202508",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "14147.0",
+                  "timeValue": "202509",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "15541.0",
+                  "timeValue": "202510",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "18224.0",
+                  "timeValue": "202511",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "18986.0",
+                  "timeValue": "202512",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "8197.0",
+                  "timeValue": "202601",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "9035.0",
+                  "timeValue": "202602",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                }
+              ],
+              "region": "US",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiNormalProductVO",
+              "priceRange": "US$198.0~US$385.42"
+            },
+            {
+              "spInfo": {
+                "launchDays": 90,
+                "launchTime": "2025-12-18",
+                "spRatingMin": 1.0,
+                "spRatingMax": 5.0,
+                "spRatingMid": 3.9,
+                "spPriceMin": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "23.99",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD23.99"
+                  },
+                  "desc": "簇内最低价"
+                },
+                "spPriceMax": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "899.99",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD899.99"
+                  },
+                  "desc": "簇内最高价"
+                },
+                "spItmMidPrice": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "1416.13",
+                    "currencySymbol": "￥",
+                    "amountWithSymbol": "￥1416.13"
+                  },
+                  "desc": "簇内平均价"
+                },
+                "spItmCnt": 96,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SpInfoApiVO",
+                "spId": "248137088"
+              },
+              "soldCnt30d": "9542",
+              "onShelfDays": 769,
+              "productId": "amazon-美国-B0GR5YHNZT",
+              "regionCn": "美国",
+              "spItemCnt": 96,
+              "ratingRange": "4.3",
+              "catePath": "Cell Phones & Accessories->Cell Phones",
+              "title": "Motorola Moto G Play | 2024 | Unlocked | Made for US 4/64GB | 50MP Camera | Sapphire Blue",
+              "platform": "amazon",
+              "reviewCnt": 185,
+              "mainImgUrl": "https://image-transform.oss-accelerate.aliyuncs.com/6c414ab553624ff7b554c63e121d8c2b",
+              "onShelfDate": "2024-02-08",
+              "productUrl": "https://www.amazon.com/dp/B0CP6DDN1H/",
+              "soldCntHisByM": [
+                {
+                  "timeScale": "month",
+                  "trendValue": "10599.0",
+                  "timeValue": "202503",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "7975.0",
+                  "timeValue": "202504",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "3870.0",
+                  "timeValue": "202505",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "7572.0",
+                  "timeValue": "202506",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "13926.0",
+                  "timeValue": "202507",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "11927.0",
+                  "timeValue": "202508",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "10037.0",
+                  "timeValue": "202509",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "13356.0",
+                  "timeValue": "202510",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "23930.0",
+                  "timeValue": "202511",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "18171.0",
+                  "timeValue": "202512",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "12079.0",
+                  "timeValue": "202601",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "11725.0",
+                  "timeValue": "202602",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                }
+              ],
+              "region": "US",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiNormalProductVO",
+              "priceRange": "US$109.99~US$299.99"
+            },
+            {
+              "spInfo": {
+                "launchDays": 111,
+                "launchTime": "2025-11-27",
+                "spRatingMin": 1.0,
+                "spRatingMax": 5.0,
+                "spRatingMid": 3.4,
+                "spPriceMin": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "9.6",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD9.6"
+                  },
+                  "desc": "簇内最低价"
+                },
+                "spPriceMax": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "900.78",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD900.78"
+                  },
+                  "desc": "簇内最高价"
+                },
+                "spItmMidPrice": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "1353.07",
+                    "currencySymbol": "￥",
+                    "amountWithSymbol": "￥1353.07"
+                  },
+                  "desc": "簇内平均价"
+                },
+                "spItmCnt": 21,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SpInfoApiVO",
+                "spId": "876790813"
+              },
+              "soldCnt30d": "7181",
+              "onShelfDays": 918,
+              "productId": "amazon-美国-B0G3XDLGD8",
+              "regionCn": "美国",
+              "spItemCnt": 21,
+              "ratingRange": "3.9",
+              "catePath": "Cell Phones & Accessories->Cell Phones",
+              "title": "Apple iPhone 15 Pro, 256GB, Black Titanium - Unlocked (Renewed)",
+              "platform": "amazon",
+              "reviewCnt": 95,
+              "mainImgUrl": "https://image-transform.oss-accelerate.aliyuncs.com/baa151a3f496491e837a8a4ea462a410",
+              "onShelfDate": "2023-09-12",
+              "productUrl": "https://www.amazon.com/dp/B0CMZ5LT14/",
+              "soldCntHisByM": [
+                {
+                  "timeScale": "month",
+                  "trendValue": "2443.0",
+                  "timeValue": "202503",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "2335.0",
+                  "timeValue": "202504",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "669.0",
+                  "timeValue": "202505",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "2750.0",
+                  "timeValue": "202506",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "3036.0",
+                  "timeValue": "202507",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "1835.0",
+                  "timeValue": "202508",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "1762.0",
+                  "timeValue": "202509",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "2645.0",
+                  "timeValue": "202510",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "6491.0",
+                  "timeValue": "202511",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "10467.0",
+                  "timeValue": "202512",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "7531.0",
+                  "timeValue": "202601",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "7652.0",
+                  "timeValue": "202602",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                }
+              ],
+              "region": "US",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiNormalProductVO",
+              "priceRange": "US$489.95~US$613.0"
+            },
+            {
+              "spInfo": {
+                "launchDays": 299,
+                "launchTime": "2025-05-23",
+                "spRatingMin": 1.0,
+                "spRatingMax": 4.8,
+                "spRatingMid": 3.7,
+                "spPriceMin": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "94.7",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD94.7"
+                  },
+                  "desc": "簇内最低价"
+                },
+                "spPriceMax": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "349.99",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD349.99"
+                  },
+                  "desc": "簇内最高价"
+                },
+                "spItmMidPrice": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "1136.68",
+                    "currencySymbol": "￥",
+                    "amountWithSymbol": "￥1136.68"
+                  },
+                  "desc": "簇内平均价"
+                },
+                "spItmCnt": 7,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SpInfoApiVO",
+                "spId": "1728224198"
+              },
+              "soldCnt30d": "6488",
+              "onShelfDays": 427,
+              "productId": "amazon-美国-B0DT4XWXN5",
+              "regionCn": "美国",
+              "spItemCnt": 7,
+              "ratingRange": "4.3",
+              "catePath": "Cell Phones & Accessories->Cell Phones",
+              "title": "Samsung Galaxy A16 4G LTE (128GB + 4GB) International Model SM-A165F/DS Factory Unlocked, 6.7\", Dual SIM, 50MP Triple Camera (Case Bundle), Black",
+              "platform": "amazon",
+              "reviewCnt": 21,
+              "mainImgUrl": "https://image-transform.oss-accelerate.aliyuncs.com/a5b5deb042464fcaa5f4e1ddeb2843b0",
+              "onShelfDate": "2025-01-15",
+              "productUrl": "https://www.amazon.com/dp/B0DM1S54MZ/",
+              "soldCntHisByM": [
+                {
+                  "timeScale": "month",
+                  "trendValue": "507.0",
+                  "timeValue": "202503",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "968.0",
+                  "timeValue": "202504",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "1519.0",
+                  "timeValue": "202505",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "4334.0",
+                  "timeValue": "202506",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "3504.0",
+                  "timeValue": "202507",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "4504.0",
+                  "timeValue": "202508",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "5523.0",
+                  "timeValue": "202509",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "6288.0",
+                  "timeValue": "202510",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "5499.0",
+                  "timeValue": "202511",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "6499.0",
+                  "timeValue": "202512",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "5259.0",
+                  "timeValue": "202601",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "6470.0",
+                  "timeValue": "202602",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                }
+              ],
+              "region": "US",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiNormalProductVO",
+              "priceRange": "US$129.99~US$132.98"
+            }
+          ],
+          "onShelfDate": "2026-01-29",
+          "soldCntHisByM": [
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202503",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202504",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202505",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202506",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202507",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202508",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202509",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202510",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202511",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202512",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202601",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "3.0",
+              "timeValue": "202602",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            }
+          ],
+          "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiComparedProductVO",
+          "summary": "## 1. 核心差异总结  \n\n1.  **功能定位本质不同**  \n    *   **新品**：专注**外接式拍摄辅助工具**，非独立终端，核心价值是解决后置摄像头自拍/直播时的取景盲区问题。  \n    *   **热销品**：均为**全功能智能手机**，集通信、计算、影像、娱乐于一体，属终端消费电子主力品类。  \n2.  **价格与价值层级悬殊**  \n    *   **新品**：定价**US$29.99**，属低单价配件，决策门槛极低，依赖场景化刚需驱动。  \n    *   **热销品**：价格区间**US$109.99–US$613.00**，属高价值耐用品，购买决策受品牌、性能、生态、长期使用体验综合影响。  \n3.  **市场成熟度与信任基础分化**  \n    *   **新品**：2026年1月上架，**上架仅半年**，评分3.2（11条评论），缺乏用户口碑沉淀与市场验证。  \n    *   **热销品**：上架时间跨度2020–2025年，**平均销量超7000件，评分稳定4.0+**，具备强品牌背书与成熟用户信任体系。\n\n## 2. 详细差异对比\n\n\n<custom_table data='{\"headers\":[{\"align\":\"left\",\"key\":\"col_0\",\"title\":\"对比维度\"},{\"align\":\"left\",\"key\":\"col_1\",\"title\":\"新品\"},{\"align\":\"left\",\"key\":\"col_2\",\"title\":\"热销品1\"},{\"align\":\"left\",\"key\":\"col_3\",\"title\":\"热销品2\"},{\"align\":\"left\",\"key\":\"col_4\",\"title\":\"热销品3\"},{\"align\":\"left\",\"key\":\"col_5\",\"title\":\"热销品4\"},{\"align\":\"left\",\"key\":\"col_6\",\"title\":\"热销品5\"}],\"meta\":{\"columnCount\":7,\"hasImage\":true,\"rowCount\":12},\"rows\":[{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"商品图片\"},\"col_1\":{\"renderType\":\"image\",\"richContent\":[{\"alt\":\"新品\",\"content\":\"新品\",\"linkUrl\":\"https://www.amazon.com/dp/B0GJS52WCN/\",\"type\":\"image\",\"url\":\"https://image-transform.oss-accelerate.aliyuncs.com/da27aa9f06ef4757be7ad2c3b457b337\"}]},\"col_2\":{\"renderType\":\"image\",\"richContent\":[{\"alt\":\"热销品1\",\"content\":\"热销品1\",\"linkUrl\":\"https://www.amazon.com/dp/B09LNW3CY2/\",\"type\":\"image\",\"url\":\"https://image-transform.oss-accelerate.aliyuncs.com/bddf1f90db744e35881c1103edfd5c15\"}]},\"col_3\":{\"renderType\":\"image\",\"richContent\":[{\"alt\":\"热销品2\",\"content\":\"热销品2\",\"linkUrl\":\"https://www.amazon.com/dp/B08PP5MSVB/\",\"type\":\"image\",\"url\":\"https://image-transform.oss-accelerate.aliyuncs.com/9dd0c3b510ed41d49a4af635d78fbf4e\"}]},\"col_4\":{\"renderType\":\"image\",\"richContent\":[{\"alt\":\"热销品3\",\"content\":\"热销品3\",\"linkUrl\":\"https://www.amazon.com/dp/B0CP6DDN1H/\",\"type\":\"image\",\"url\":\"https://image-transform.oss-accelerate.aliyuncs.com/6c414ab553624ff7b554c63e121d8c2b\"}]},\"col_5\":{\"renderType\":\"image\",\"richContent\":[{\"alt\":\"热销品4\",\"content\":\"热销品4\",\"linkUrl\":\"https://www.amazon.com/dp/B0CMZ5LT14/\",\"type\":\"image\",\"url\":\"https://image-transform.oss-accelerate.aliyuncs.com/baa151a3f496491e837a8a4ea462a410\"}]},\"col_6\":{\"renderType\":\"image\",\"richContent\":[{\"alt\":\"热销品5\",\"content\":\"热销品5\",\"linkUrl\":\"https://www.amazon.com/dp/B0DM1S54MZ/\",\"type\":\"image\",\"url\":\"https://image-transform.oss-accelerate.aliyuncs.com/a5b5deb042464fcaa5f4e1ddeb2843b0\"}]}},\"rowId\":\"row_0\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"价格\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"US$29.99\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"US$245.3 – US$472.99\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"US$198.0 – US$385.42\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"US$109.99 – US$299.99\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"US$489.95 – US$613.0\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"US$129.99 – US$132.98\"}},\"rowId\":\"row_1\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"销量\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"156\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"10779\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"9757\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"9542\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"7181\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"6488\"}},\"rowId\":\"row_2\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"评分\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"3.2\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"4.1\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"4.0\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"4.3\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"3.9\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"4.3\"}},\"rowId\":\"row_3\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"上架时间\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"2026-01-29\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"2021-11-11\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"2020-12-03\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"2024-02-08\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"2023-09-12\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"2025-01-15\"}},\"rowId\":\"row_4\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"产品本质\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"外接式**磁吸式后摄取景辅助屏**（非通信设备）\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"全功能**智能手机**（支持5G/蜂窝通信）\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"全功能**智能手机**（支持5G/蜂窝通信）\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"全功能**智能手机**（支持5G/蜂窝通信）\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"全功能**智能手机**（支持5G/蜂窝通信）\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"全功能**智能手机**（仅支持4G LTE）\"}},\"rowId\":\"row_5\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"核心技术原理\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"**无线投屏+磁吸固定+物理遥控**，依赖手机输出信号\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"**集成SoC+蜂窝基带+全栈操作系统**，自主完成影像/通信/计算\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"**集成SoC+蜂窝基带+全栈操作系统**，自主完成影像/通信/计算\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"**集成SoC+5G基带+全栈操作系统**，自主完成影像/通信/计算\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"**集成SoC+5G基带+全栈操作系统**，自主完成影像/通信/计算\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"**集成SoC+4G基带+全栈操作系统**，自主完成影像/通信/计算\"}},\"rowId\":\"row_6\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"屏幕规格\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"**4英寸HD（1080P）便携屏**，3级亮度调节，可一键翻转\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"**6.1英寸Super Retina XDR OLED屏**，2000尼特峰值亮度，120Hz自适应刷新\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"**6.1英寸Super Retina XDR OLED屏**，1200尼特峰值亮度\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"**6.7英寸FHD+ 120Hz AMOLED屏**，800尼特HBM，Dolby Atmos音效\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"**6.1英寸LTPO Super Retina XDR OLED屏**，2000尼特HBM，120Hz ProMotion\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"**6.7英寸FHD+ 90Hz Super AMOLED屏**，800尼特HBM\"}},\"rowId\":\"row_7\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"供电方式\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"**Type-C接口充电**，内置电池（描述中未明确容量）\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"**内置不可拆卸电池**（约19小时视频播放）\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"**内置2815mAh电池**，支持MagSafe无线充电\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"**内置5000mAh电池**，支持30W TurboPower快充\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"**内置3274mAh电池**\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"**内置5000mAh电池**，支持25W有线快充\"}},\"rowId\":\"row_8\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"适用核心场景\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"**Vlog拍摄、后置自拍、直播取景、单人视频创作**\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"**全场景移动通信、高性能计算、专业影像创作、生态协同**\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"**全场景移动通信、日常高性能使用、影像记录**\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"**长续航日常使用、高清影音娱乐、中端影像体验**\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"**旗舰级影像/性能/设计、专业创作与高端体验**\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"**高性价比4G入门智能机、长续航基础通信与影像**\"}},\"rowId\":\"row_9\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"品牌与生态\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"**NoteBuddy（白牌配件品牌）**，无操作系统及生态\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"**Apple（iOS生态闭环）**，深度软硬协同\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"**Apple（iOS生态闭环）**，深度软硬协同\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"**Motorola（Android开放生态）**，轻定制\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"**Apple（iOS生态闭环）**，深度软硬协同\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"**Samsung（Android开放生态）**，One UI定制\"}},\"rowId\":\"row_10\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"用户决策驱动因素\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"✅ **场景刚需明确、价格敏感、配件补充型购买**\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"❌ **品牌忠诚、系统生态依赖、长期使用价值**\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"❌ **品牌忠诚、系统生态依赖、长期使用价值**\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"❌ **性价比、续航、屏幕体验、Android生态兼容性**\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"❌ **旗舰性能、影像系统、材质工艺、品牌溢价**\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"❌ **入门门槛、4G网络适配、基础功能完备性**\"}},\"rowId\":\"row_11\"}]}'/>",
+          "spInfo": {
+            "launchDays": 48,
+            "launchTime": "2026-01-29",
+            "spRatingMin": 1.5,
+            "spRatingMax": 5.0,
+            "spRatingMid": 3.2,
+            "spPriceMin": {
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "value": {
+                "amount": "9.98",
+                "currencySymbol": "USD",
+                "amountWithSymbol": "USD9.98"
+              },
+              "desc": "簇内最低价"
+            },
+            "spPriceMax": {
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "value": {
+                "amount": "87.62",
+                "currencySymbol": "USD",
+                "amountWithSymbol": "USD87.62"
+              },
+              "desc": "簇内最高价"
+            },
+            "spItmMidPrice": {
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "value": {
+                "amount": "260.72",
+                "currencySymbol": "￥",
+                "amountWithSymbol": "￥260.72"
+              },
+              "desc": "簇内平均价"
+            },
+            "spItmCnt": 9,
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SpInfoApiVO",
+            "spId": "1204754134"
+          },
+          "soldCnt30d": "156",
+          "productId": "amazon-美国-B0GL73YGF4",
+          "regionCn": "美国",
+          "spItemCnt": 9,
+          "spPriceAvg": {
+            "name": "平均价格",
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+            "value": {
+              "amount": "29.99~US$34.99",
+              "currencySymbol": "US$",
+              "amountWithSymbol": "US$29.99~US$34.99"
+            },
+            "desc": "平均价格=月销售额/月销量，可用于了解该细分市场中普遍商品的价格水平"
+          },
+          "catePath": "Cell Phones & Accessories->Cell Phones",
+          "mainImgUrl": "https://image-transform.oss-accelerate.aliyuncs.com/da27aa9f06ef4757be7ad2c3b457b337",
+          "productUrl": "https://www.amazon.com/dp/B0GJS52WCN/",
+          "region": "US",
+          "priceRange": "US$29.99~US$34.99"
+        },
+        {
+          "spRatingAvg": "5.0",
+          "onShelfDays": 29,
+          "radarVO": {
+            "propertyList": [
+              {
+                "name": "市场需求分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 94.6
+              },
+              {
+                "name": "市场供给分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 35.5
+              },
+              {
+                "name": "市场销售分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 23.0
+              },
+              {
+                "name": "评价分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 100.0
+              },
+              {
+                "name": "新品分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 69.5
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO",
+            "radarDescription": "通过该商品的搜索量、销售额、在售商品数、平均评分、垄断系数等指标综合得出。机会分越高则该商品代表的细分市场机会越大。"
+          },
+          "ratingRange": "5.0",
+          "title": "Motorola Moto G Power - 2025 | AT&T | Made for US 8/128GB | 50MP Camera | Slate Gray (Renewed)",
+          "platform": "amazon",
+          "oppScoreDesc": "击败 98.9% 商品",
+          "spSoldCnt30d": "2",
+          "reviewCnt": 0,
+          "oppScore": "65.78",
+          "sameCateHotSaleList": [
+            {
+              "spInfo": {
+                "launchDays": 147,
+                "launchTime": "2025-10-22",
+                "spRatingMin": 1.0,
+                "spRatingMax": 5.0,
+                "spRatingMid": 3.8,
+                "spPriceMin": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "3.99",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD3.99"
+                  },
+                  "desc": "簇内最低价"
+                },
+                "spPriceMax": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "1319.96",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD1319.96"
+                  },
+                  "desc": "簇内最高价"
+                },
+                "spItmMidPrice": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "3000.5",
+                    "currencySymbol": "￥",
+                    "amountWithSymbol": "￥3000.5"
+                  },
+                  "desc": "簇内平均价"
+                },
+                "spItmCnt": 81,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SpInfoApiVO",
+                "spId": "-609961944"
+              },
+              "soldCnt30d": "10779",
+              "onShelfDays": 1588,
+              "productId": "amazon-美国-B0BGQMSXYC",
+              "regionCn": "美国",
+              "spItemCnt": 81,
+              "ratingRange": "4.1",
+              "catePath": "Cell Phones & Accessories->Cell Phones",
+              "title": "Apple iPhone 13, 128GB, Midnight - Unlocked (Renewed)",
+              "platform": "amazon",
+              "reviewCnt": 1474,
+              "mainImgUrl": "https://image-transform.oss-accelerate.aliyuncs.com/bddf1f90db744e35881c1103edfd5c15",
+              "onShelfDate": "2021-11-11",
+              "productUrl": "https://www.amazon.com/dp/B09LNW3CY2/",
+              "soldCntHisByM": [
+                {
+                  "timeScale": "month",
+                  "trendValue": "18826.0",
+                  "timeValue": "202503",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "19910.0",
+                  "timeValue": "202504",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "10413.0",
+                  "timeValue": "202505",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "18986.0",
+                  "timeValue": "202506",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "14914.0",
+                  "timeValue": "202507",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "10291.0",
+                  "timeValue": "202508",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "8842.0",
+                  "timeValue": "202509",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "10850.0",
+                  "timeValue": "202510",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "11783.0",
+                  "timeValue": "202511",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "17037.0",
+                  "timeValue": "202512",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "8312.0",
+                  "timeValue": "202601",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "9295.0",
+                  "timeValue": "202602",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                }
+              ],
+              "region": "US",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiNormalProductVO",
+              "priceRange": "US$245.3~US$472.99"
+            },
+            {
+              "spInfo": {
+                "launchDays": 614,
+                "launchTime": "2024-07-12",
+                "spRatingMin": 3.5,
+                "spRatingMax": 5.0,
+                "spRatingMid": 4.1,
+                "spPriceMin": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "139",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD139"
+                  },
+                  "desc": "簇内最低价"
+                },
+                "spPriceMax": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "1192.25",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD1192.25"
+                  },
+                  "desc": "簇内最高价"
+                },
+                "spItmMidPrice": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "2193.17",
+                    "currencySymbol": "￥",
+                    "amountWithSymbol": "￥2193.17"
+                  },
+                  "desc": "簇内平均价"
+                },
+                "spItmCnt": 14,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SpInfoApiVO",
+                "spId": "-1648697563"
+              },
+              "soldCnt30d": "9757",
+              "onShelfDays": 1931,
+              "productId": "amazon-美国-B0GQZQ724D",
+              "regionCn": "美国",
+              "spItemCnt": 14,
+              "ratingRange": "4.0",
+              "catePath": "Cell Phones & Accessories->Cell Phones",
+              "title": "Apple iPhone 12, 64GB, Black - Fully Unlocked (Renewed)",
+              "platform": "amazon",
+              "reviewCnt": 3012,
+              "mainImgUrl": "https://image-transform.oss-accelerate.aliyuncs.com/9dd0c3b510ed41d49a4af635d78fbf4e",
+              "onShelfDate": "2020-12-03",
+              "productUrl": "https://www.amazon.com/dp/B08PP5MSVB/",
+              "soldCntHisByM": [
+                {
+                  "timeScale": "month",
+                  "trendValue": "12915.0",
+                  "timeValue": "202503",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "13744.0",
+                  "timeValue": "202504",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "7853.0",
+                  "timeValue": "202505",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "15476.0",
+                  "timeValue": "202506",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "20495.0",
+                  "timeValue": "202507",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "21170.0",
+                  "timeValue": "202508",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "14147.0",
+                  "timeValue": "202509",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "15541.0",
+                  "timeValue": "202510",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "18224.0",
+                  "timeValue": "202511",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "18986.0",
+                  "timeValue": "202512",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "8197.0",
+                  "timeValue": "202601",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "9035.0",
+                  "timeValue": "202602",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                }
+              ],
+              "region": "US",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiNormalProductVO",
+              "priceRange": "US$198.0~US$385.42"
+            },
+            {
+              "spInfo": {
+                "launchDays": 90,
+                "launchTime": "2025-12-18",
+                "spRatingMin": 1.0,
+                "spRatingMax": 5.0,
+                "spRatingMid": 3.9,
+                "spPriceMin": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "23.99",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD23.99"
+                  },
+                  "desc": "簇内最低价"
+                },
+                "spPriceMax": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "899.99",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD899.99"
+                  },
+                  "desc": "簇内最高价"
+                },
+                "spItmMidPrice": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "1416.13",
+                    "currencySymbol": "￥",
+                    "amountWithSymbol": "￥1416.13"
+                  },
+                  "desc": "簇内平均价"
+                },
+                "spItmCnt": 96,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SpInfoApiVO",
+                "spId": "248137088"
+              },
+              "soldCnt30d": "9542",
+              "onShelfDays": 769,
+              "productId": "amazon-美国-B0GR5YHNZT",
+              "regionCn": "美国",
+              "spItemCnt": 96,
+              "ratingRange": "4.3",
+              "catePath": "Cell Phones & Accessories->Cell Phones",
+              "title": "Motorola Moto G Play | 2024 | Unlocked | Made for US 4/64GB | 50MP Camera | Sapphire Blue",
+              "platform": "amazon",
+              "reviewCnt": 185,
+              "mainImgUrl": "https://image-transform.oss-accelerate.aliyuncs.com/6c414ab553624ff7b554c63e121d8c2b",
+              "onShelfDate": "2024-02-08",
+              "productUrl": "https://www.amazon.com/dp/B0CP6DDN1H/",
+              "soldCntHisByM": [
+                {
+                  "timeScale": "month",
+                  "trendValue": "10599.0",
+                  "timeValue": "202503",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "7975.0",
+                  "timeValue": "202504",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "3870.0",
+                  "timeValue": "202505",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "7572.0",
+                  "timeValue": "202506",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "13926.0",
+                  "timeValue": "202507",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "11927.0",
+                  "timeValue": "202508",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "10037.0",
+                  "timeValue": "202509",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "13356.0",
+                  "timeValue": "202510",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "23930.0",
+                  "timeValue": "202511",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "18171.0",
+                  "timeValue": "202512",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "12079.0",
+                  "timeValue": "202601",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "11725.0",
+                  "timeValue": "202602",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                }
+              ],
+              "region": "US",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiNormalProductVO",
+              "priceRange": "US$109.99~US$299.99"
+            },
+            {
+              "spInfo": {
+                "launchDays": 111,
+                "launchTime": "2025-11-27",
+                "spRatingMin": 1.0,
+                "spRatingMax": 5.0,
+                "spRatingMid": 3.4,
+                "spPriceMin": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "9.6",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD9.6"
+                  },
+                  "desc": "簇内最低价"
+                },
+                "spPriceMax": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "900.78",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD900.78"
+                  },
+                  "desc": "簇内最高价"
+                },
+                "spItmMidPrice": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "1353.07",
+                    "currencySymbol": "￥",
+                    "amountWithSymbol": "￥1353.07"
+                  },
+                  "desc": "簇内平均价"
+                },
+                "spItmCnt": 21,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SpInfoApiVO",
+                "spId": "876790813"
+              },
+              "soldCnt30d": "7181",
+              "onShelfDays": 918,
+              "productId": "amazon-美国-B0G3XDLGD8",
+              "regionCn": "美国",
+              "spItemCnt": 21,
+              "ratingRange": "3.9",
+              "catePath": "Cell Phones & Accessories->Cell Phones",
+              "title": "Apple iPhone 15 Pro, 256GB, Black Titanium - Unlocked (Renewed)",
+              "platform": "amazon",
+              "reviewCnt": 95,
+              "mainImgUrl": "https://image-transform.oss-accelerate.aliyuncs.com/baa151a3f496491e837a8a4ea462a410",
+              "onShelfDate": "2023-09-12",
+              "productUrl": "https://www.amazon.com/dp/B0CMZ5LT14/",
+              "soldCntHisByM": [
+                {
+                  "timeScale": "month",
+                  "trendValue": "2443.0",
+                  "timeValue": "202503",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "2335.0",
+                  "timeValue": "202504",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "669.0",
+                  "timeValue": "202505",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "2750.0",
+                  "timeValue": "202506",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "3036.0",
+                  "timeValue": "202507",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "1835.0",
+                  "timeValue": "202508",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "1762.0",
+                  "timeValue": "202509",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "2645.0",
+                  "timeValue": "202510",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "6491.0",
+                  "timeValue": "202511",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "10467.0",
+                  "timeValue": "202512",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "7531.0",
+                  "timeValue": "202601",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "7652.0",
+                  "timeValue": "202602",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                }
+              ],
+              "region": "US",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiNormalProductVO",
+              "priceRange": "US$489.95~US$613.0"
+            },
+            {
+              "spInfo": {
+                "launchDays": 299,
+                "launchTime": "2025-05-23",
+                "spRatingMin": 1.0,
+                "spRatingMax": 4.8,
+                "spRatingMid": 3.7,
+                "spPriceMin": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "94.7",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD94.7"
+                  },
+                  "desc": "簇内最低价"
+                },
+                "spPriceMax": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "349.99",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD349.99"
+                  },
+                  "desc": "簇内最高价"
+                },
+                "spItmMidPrice": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "1136.68",
+                    "currencySymbol": "￥",
+                    "amountWithSymbol": "￥1136.68"
+                  },
+                  "desc": "簇内平均价"
+                },
+                "spItmCnt": 7,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SpInfoApiVO",
+                "spId": "1728224198"
+              },
+              "soldCnt30d": "6488",
+              "onShelfDays": 427,
+              "productId": "amazon-美国-B0DT4XWXN5",
+              "regionCn": "美国",
+              "spItemCnt": 7,
+              "ratingRange": "4.3",
+              "catePath": "Cell Phones & Accessories->Cell Phones",
+              "title": "Samsung Galaxy A16 4G LTE (128GB + 4GB) International Model SM-A165F/DS Factory Unlocked, 6.7\", Dual SIM, 50MP Triple Camera (Case Bundle), Black",
+              "platform": "amazon",
+              "reviewCnt": 21,
+              "mainImgUrl": "https://image-transform.oss-accelerate.aliyuncs.com/a5b5deb042464fcaa5f4e1ddeb2843b0",
+              "onShelfDate": "2025-01-15",
+              "productUrl": "https://www.amazon.com/dp/B0DM1S54MZ/",
+              "soldCntHisByM": [
+                {
+                  "timeScale": "month",
+                  "trendValue": "507.0",
+                  "timeValue": "202503",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "968.0",
+                  "timeValue": "202504",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "1519.0",
+                  "timeValue": "202505",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "4334.0",
+                  "timeValue": "202506",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "3504.0",
+                  "timeValue": "202507",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "4504.0",
+                  "timeValue": "202508",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "5523.0",
+                  "timeValue": "202509",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "6288.0",
+                  "timeValue": "202510",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "5499.0",
+                  "timeValue": "202511",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "6499.0",
+                  "timeValue": "202512",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "5259.0",
+                  "timeValue": "202601",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "6470.0",
+                  "timeValue": "202602",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                }
+              ],
+              "region": "US",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiNormalProductVO",
+              "priceRange": "US$129.99~US$132.98"
+            }
+          ],
+          "onShelfDate": "2026-02-17",
+          "soldCntHisByM": [
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202503",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202504",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202505",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202506",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202507",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202508",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202509",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202510",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202511",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202512",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202601",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "1.0",
+              "timeValue": "202602",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            }
+          ],
+          "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiComparedProductVO",
+          "summary": "## 1. 核心差异总结  \n\n1.  **定价颠覆性优势**  \n    *   **新品**：以$99.99超低价切入，为当前市场最低价5G安卓焕新机，主打极致性价比入门门槛。  \n    *   **热销品**：价格带集中于$198–$613，iPhone系列均价超$300，三星/Moto竞品亦普遍$109起，无同类低价锚点。  \n2.  **系统代际与生态隔离**  \n    *   **新品**：搭载最新Android 14系统，但为AT&T定制锁网机型，无法自由切换运营商，生态封闭。  \n    *   **热销品**：4款为全网解锁（含3款iPhone、1款三星），仅热销款2标注AT&T锁网；iOS设备强绑定Apple生态，安卓竞品普遍支持多运营商。  \n3.  **性能-续航-影像三角权衡**  \n    *   **新品**：8GB+128GB高配内存组合+5000mAh电池+50MP主摄，但未披露芯片型号与屏幕刷新率，属“够用型均衡配置”。  \n    *   **热销品**：iPhone系列以A14/A15/A17 Pro旗舰芯片+顶级影像算法见长；Moto G Play（热销款3）与三星A16（热销款5）同为50MP+5000mAh，但RAM仅4GB，新品在内存规格上形成越级压制。\n\n## 2. 详细差异对比\n\n\n<custom_table data='{\"headers\":[{\"align\":\"left\",\"key\":\"col_0\",\"title\":\"对比维度\"},{\"align\":\"left\",\"key\":\"col_1\",\"title\":\"新品\"},{\"align\":\"left\",\"key\":\"col_2\",\"title\":\"热销品1\"},{\"align\":\"left\",\"key\":\"col_3\",\"title\":\"热销品2\"},{\"align\":\"left\",\"key\":\"col_4\",\"title\":\"热销品3\"},{\"align\":\"left\",\"key\":\"col_5\",\"title\":\"热销品4\"},{\"align\":\"left\",\"key\":\"col_6\",\"title\":\"热销品5\"}],\"meta\":{\"columnCount\":7,\"hasImage\":true,\"rowCount\":14},\"rows\":[{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"商品图片\"},\"col_1\":{\"renderType\":\"image\",\"richContent\":[{\"alt\":\"新品\",\"content\":\"新品\",\"linkUrl\":\"https://www.amazon.com/dp/B0GNVY5VJ7/\",\"type\":\"image\",\"url\":\"https://image-transform.oss-accelerate.aliyuncs.com/68539ea38e4647aa800a5909b32c4755\"}]},\"col_2\":{\"renderType\":\"image\",\"richContent\":[{\"alt\":\"热销品1\",\"content\":\"热销品1\",\"linkUrl\":\"https://www.amazon.com/dp/B09LNW3CY2/\",\"type\":\"image\",\"url\":\"https://image-transform.oss-accelerate.aliyuncs.com/bddf1f90db744e35881c1103edfd5c15\"}]},\"col_3\":{\"renderType\":\"image\",\"richContent\":[{\"alt\":\"热销品2\",\"content\":\"热销品2\",\"linkUrl\":\"https://www.amazon.com/dp/B08PP5MSVB/\",\"type\":\"image\",\"url\":\"https://image-transform.oss-accelerate.aliyuncs.com/9dd0c3b510ed41d49a4af635d78fbf4e\"}]},\"col_4\":{\"renderType\":\"image\",\"richContent\":[{\"alt\":\"热销品3\",\"content\":\"热销品3\",\"linkUrl\":\"https://www.amazon.com/dp/B0CP6DDN1H/\",\"type\":\"image\",\"url\":\"https://image-transform.oss-accelerate.aliyuncs.com/6c414ab553624ff7b554c63e121d8c2b\"}]},\"col_5\":{\"renderType\":\"image\",\"richContent\":[{\"alt\":\"热销品4\",\"content\":\"热销品4\",\"linkUrl\":\"https://www.amazon.com/dp/B0CMZ5LT14/\",\"type\":\"image\",\"url\":\"https://image-transform.oss-accelerate.aliyuncs.com/baa151a3f496491e837a8a4ea462a410\"}]},\"col_6\":{\"renderType\":\"image\",\"richContent\":[{\"alt\":\"热销品5\",\"content\":\"热销品5\",\"linkUrl\":\"https://www.amazon.com/dp/B0DM1S54MZ/\",\"type\":\"image\",\"url\":\"https://image-transform.oss-accelerate.aliyuncs.com/a5b5deb042464fcaa5f4e1ddeb2843b0\"}]}},\"rowId\":\"row_0\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"价格\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"US$99.99\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"US$245.3 - US$472.99\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"US$198.0 - US$385.42\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"US$109.99 - US$299.99\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"US$489.95 - US$613.0\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"US$129.99 - US$132.98\"}},\"rowId\":\"row_1\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"销量\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"2\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"10779\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"9757\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"9542\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"7181\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"6488\"}},\"rowId\":\"row_2\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"评分\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"5.0\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"4.1\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"4.0\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"4.3\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"3.9\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"4.3\"}},\"rowId\":\"row_3\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"上架时间\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"2026-02-17\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"2021-11-11\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"2020-12-03\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"2024-02-08\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"2023-09-12\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"2025-01-15\"}},\"rowId\":\"row_4\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"网络制式\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"5G（AT&T锁网）\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"Cellular（未标注5G，实为5G-capable）\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"5G（AT&T锁网）\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"5G（Unlocked）\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"5G（Unlocked）\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"4G LTE（Unlocked，美仅兼容T-Mobile系）\"}},\"rowId\":\"row_5\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"操作系统\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"Android 14\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"iOS（未标注版本，实为iOS 15+）\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"iOS 14\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"Android（未标注版本，实为Android 14）\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"iOS 17.0.2\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"Android（未标注版本）\"}},\"rowId\":\"row_6\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"内存配置\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"8 GB RAM + 128 GB 存储\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"未标注RAM，存储512 GB\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"4 GB RAM + 64 GB 存储\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"4 GB RAM + 64 GB 存储\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"8 GB RAM + 256 GB 存储\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"4 GB RAM + 128 GB 存储\"}},\"rowId\":\"row_7\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"电池容量\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"5000 Milliamp Hours\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"未标注\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"2815 Milliamp Hours\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"5000 Milliamp Hours\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"3274 Milliamp Hours\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"5000 Milliamp Hours\"}},\"rowId\":\"row_8\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"主摄像头\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"50MP\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"12MP（双摄）\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"12MP（双摄）\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"50MP（OIS）\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"48MP（三摄，含3x光变）\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"50MP（双50MP+2MP微距）\"}},\"rowId\":\"row_9\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"屏幕分辨率\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"1600 x 720\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"1920 x 1080\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"1170 x 2532\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"未标注（FHD+）\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"1179 x 2556\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"1080 x 2340\"}},\"rowId\":\"row_10\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"充电与接口\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"USB-C\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"USB-C\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"Lightning\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"USB-C\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"USB-C\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"USB-C\"}},\"rowId\":\"row_11\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"包装配件\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"USB Cable\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"USB Cable\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"Charger\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"未标注\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"Apple iPhone 15 Pro（无充电器）\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"accessories\"}},\"rowId\":\"row_12\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"适用场景定位\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"入门级5G备用机/老年机/学生机\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"iOS生态主力机/影像创作\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"iOS轻旗舰/二手性价比主力\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"大屏长续航娱乐机\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"旗舰性能+影像旗舰\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"全球通用4G入门机（美受限）\"}},\"rowId\":\"row_13\"}]}'/>",
+          "spInfo": {
+            "launchDays": 29,
+            "launchTime": "2026-02-17",
+            "spRatingMin": 1.6,
+            "spRatingMax": 5.0,
+            "spRatingMid": 3.8,
+            "spPriceMin": {
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "value": {
+                "amount": "34.98",
+                "currencySymbol": "USD",
+                "amountWithSymbol": "USD34.98"
+              },
+              "desc": "簇内最低价"
+            },
+            "spPriceMax": {
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "value": {
+                "amount": "1089.97",
+                "currencySymbol": "USD",
+                "amountWithSymbol": "USD1089.97"
+              },
+              "desc": "簇内最高价"
+            },
+            "spItmMidPrice": {
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "value": {
+                "amount": "1463.47",
+                "currencySymbol": "￥",
+                "amountWithSymbol": "￥1463.47"
+              },
+              "desc": "簇内平均价"
+            },
+            "spItmCnt": 38,
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SpInfoApiVO",
+            "spId": "248138200"
+          },
+          "soldCnt30d": "2",
+          "productId": "amazon-美国-B0GNVY5VJ7",
+          "regionCn": "美国",
+          "spItemCnt": 38,
+          "spPriceAvg": {
+            "name": "平均价格",
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+            "value": {
+              "amount": "99.99",
+              "currencySymbol": "US$",
+              "amountWithSymbol": "US$99.99"
+            },
+            "desc": "平均价格=月销售额/月销量，可用于了解该细分市场中普遍商品的价格水平"
+          },
+          "catePath": "Cell Phones & Accessories->Cell Phones",
+          "mainImgUrl": "https://image-transform.oss-accelerate.aliyuncs.com/68539ea38e4647aa800a5909b32c4755",
+          "productUrl": "https://www.amazon.com/dp/B0GNVY5VJ7/",
+          "region": "US",
+          "priceRange": "US$99.99"
+        },
+        {
+          "spRatingAvg": "2.4",
+          "onShelfDays": 69,
+          "radarVO": {
+            "propertyList": [
+              {
+                "name": "市场需求分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 94.0
+              },
+              {
+                "name": "市场供给分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 59.5
+              },
+              {
+                "name": "市场销售分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 14.8
+              },
+              {
+                "name": "评价分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 68.3
+              },
+              {
+                "name": "新品分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 63.9
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO",
+            "radarDescription": "通过该商品的搜索量、销售额、在售商品数、平均评分、垄断系数等指标综合得出。机会分越高则该商品代表的细分市场机会越大。"
+          },
+          "ratingRange": "2.4",
+          "title": "Selfie Monitor Screen Phone- Magnetic Phone Vlog Back Camera Selfie Monitor - 1080P Display can Wirelessly Connect to Mobile Phones - Selfie Screen Compatible with iPhone & Android (White)",
+          "platform": "amazon",
+          "oppScoreDesc": "击败 97.8% 商品",
+          "spSoldCnt30d": "1",
+          "reviewCnt": 0,
+          "oppScore": "61.05",
+          "sameCateHotSaleList": [
+            {
+              "spInfo": {
+                "launchDays": 147,
+                "launchTime": "2025-10-22",
+                "spRatingMin": 1.0,
+                "spRatingMax": 5.0,
+                "spRatingMid": 3.8,
+                "spPriceMin": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "3.99",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD3.99"
+                  },
+                  "desc": "簇内最低价"
+                },
+                "spPriceMax": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "1319.96",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD1319.96"
+                  },
+                  "desc": "簇内最高价"
+                },
+                "spItmMidPrice": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "3000.5",
+                    "currencySymbol": "￥",
+                    "amountWithSymbol": "￥3000.5"
+                  },
+                  "desc": "簇内平均价"
+                },
+                "spItmCnt": 81,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SpInfoApiVO",
+                "spId": "-609961944"
+              },
+              "soldCnt30d": "10779",
+              "onShelfDays": 1588,
+              "productId": "amazon-美国-B0BGQMSXYC",
+              "regionCn": "美国",
+              "spItemCnt": 81,
+              "ratingRange": "4.1",
+              "catePath": "Cell Phones & Accessories->Cell Phones",
+              "title": "Apple iPhone 13, 128GB, Midnight - Unlocked (Renewed)",
+              "platform": "amazon",
+              "reviewCnt": 1474,
+              "mainImgUrl": "https://image-transform.oss-accelerate.aliyuncs.com/bddf1f90db744e35881c1103edfd5c15",
+              "onShelfDate": "2021-11-11",
+              "productUrl": "https://www.amazon.com/dp/B09LNW3CY2/",
+              "soldCntHisByM": [
+                {
+                  "timeScale": "month",
+                  "trendValue": "18826.0",
+                  "timeValue": "202503",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "19910.0",
+                  "timeValue": "202504",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "10413.0",
+                  "timeValue": "202505",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "18986.0",
+                  "timeValue": "202506",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "14914.0",
+                  "timeValue": "202507",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "10291.0",
+                  "timeValue": "202508",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "8842.0",
+                  "timeValue": "202509",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "10850.0",
+                  "timeValue": "202510",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "11783.0",
+                  "timeValue": "202511",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "17037.0",
+                  "timeValue": "202512",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "8312.0",
+                  "timeValue": "202601",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "9295.0",
+                  "timeValue": "202602",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                }
+              ],
+              "region": "US",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiNormalProductVO",
+              "priceRange": "US$245.3~US$472.99"
+            },
+            {
+              "spInfo": {
+                "launchDays": 614,
+                "launchTime": "2024-07-12",
+                "spRatingMin": 3.5,
+                "spRatingMax": 5.0,
+                "spRatingMid": 4.1,
+                "spPriceMin": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "139",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD139"
+                  },
+                  "desc": "簇内最低价"
+                },
+                "spPriceMax": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "1192.25",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD1192.25"
+                  },
+                  "desc": "簇内最高价"
+                },
+                "spItmMidPrice": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "2193.17",
+                    "currencySymbol": "￥",
+                    "amountWithSymbol": "￥2193.17"
+                  },
+                  "desc": "簇内平均价"
+                },
+                "spItmCnt": 14,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SpInfoApiVO",
+                "spId": "-1648697563"
+              },
+              "soldCnt30d": "9757",
+              "onShelfDays": 1931,
+              "productId": "amazon-美国-B0GQZQ724D",
+              "regionCn": "美国",
+              "spItemCnt": 14,
+              "ratingRange": "4.0",
+              "catePath": "Cell Phones & Accessories->Cell Phones",
+              "title": "Apple iPhone 12, 64GB, Black - Fully Unlocked (Renewed)",
+              "platform": "amazon",
+              "reviewCnt": 3012,
+              "mainImgUrl": "https://image-transform.oss-accelerate.aliyuncs.com/9dd0c3b510ed41d49a4af635d78fbf4e",
+              "onShelfDate": "2020-12-03",
+              "productUrl": "https://www.amazon.com/dp/B08PP5MSVB/",
+              "soldCntHisByM": [
+                {
+                  "timeScale": "month",
+                  "trendValue": "12915.0",
+                  "timeValue": "202503",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "13744.0",
+                  "timeValue": "202504",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "7853.0",
+                  "timeValue": "202505",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "15476.0",
+                  "timeValue": "202506",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "20495.0",
+                  "timeValue": "202507",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "21170.0",
+                  "timeValue": "202508",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "14147.0",
+                  "timeValue": "202509",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "15541.0",
+                  "timeValue": "202510",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "18224.0",
+                  "timeValue": "202511",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "18986.0",
+                  "timeValue": "202512",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "8197.0",
+                  "timeValue": "202601",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "9035.0",
+                  "timeValue": "202602",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                }
+              ],
+              "region": "US",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiNormalProductVO",
+              "priceRange": "US$198.0~US$385.42"
+            },
+            {
+              "spInfo": {
+                "launchDays": 90,
+                "launchTime": "2025-12-18",
+                "spRatingMin": 1.0,
+                "spRatingMax": 5.0,
+                "spRatingMid": 3.9,
+                "spPriceMin": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "23.99",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD23.99"
+                  },
+                  "desc": "簇内最低价"
+                },
+                "spPriceMax": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "899.99",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD899.99"
+                  },
+                  "desc": "簇内最高价"
+                },
+                "spItmMidPrice": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "1416.13",
+                    "currencySymbol": "￥",
+                    "amountWithSymbol": "￥1416.13"
+                  },
+                  "desc": "簇内平均价"
+                },
+                "spItmCnt": 96,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SpInfoApiVO",
+                "spId": "248137088"
+              },
+              "soldCnt30d": "9542",
+              "onShelfDays": 769,
+              "productId": "amazon-美国-B0GR5YHNZT",
+              "regionCn": "美国",
+              "spItemCnt": 96,
+              "ratingRange": "4.3",
+              "catePath": "Cell Phones & Accessories->Cell Phones",
+              "title": "Motorola Moto G Play | 2024 | Unlocked | Made for US 4/64GB | 50MP Camera | Sapphire Blue",
+              "platform": "amazon",
+              "reviewCnt": 185,
+              "mainImgUrl": "https://image-transform.oss-accelerate.aliyuncs.com/6c414ab553624ff7b554c63e121d8c2b",
+              "onShelfDate": "2024-02-08",
+              "productUrl": "https://www.amazon.com/dp/B0CP6DDN1H/",
+              "soldCntHisByM": [
+                {
+                  "timeScale": "month",
+                  "trendValue": "10599.0",
+                  "timeValue": "202503",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "7975.0",
+                  "timeValue": "202504",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "3870.0",
+                  "timeValue": "202505",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "7572.0",
+                  "timeValue": "202506",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "13926.0",
+                  "timeValue": "202507",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "11927.0",
+                  "timeValue": "202508",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "10037.0",
+                  "timeValue": "202509",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "13356.0",
+                  "timeValue": "202510",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "23930.0",
+                  "timeValue": "202511",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "18171.0",
+                  "timeValue": "202512",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "12079.0",
+                  "timeValue": "202601",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "11725.0",
+                  "timeValue": "202602",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                }
+              ],
+              "region": "US",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiNormalProductVO",
+              "priceRange": "US$109.99~US$299.99"
+            },
+            {
+              "spInfo": {
+                "launchDays": 111,
+                "launchTime": "2025-11-27",
+                "spRatingMin": 1.0,
+                "spRatingMax": 5.0,
+                "spRatingMid": 3.4,
+                "spPriceMin": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "9.6",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD9.6"
+                  },
+                  "desc": "簇内最低价"
+                },
+                "spPriceMax": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "900.78",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD900.78"
+                  },
+                  "desc": "簇内最高价"
+                },
+                "spItmMidPrice": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "1353.07",
+                    "currencySymbol": "￥",
+                    "amountWithSymbol": "￥1353.07"
+                  },
+                  "desc": "簇内平均价"
+                },
+                "spItmCnt": 21,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SpInfoApiVO",
+                "spId": "876790813"
+              },
+              "soldCnt30d": "7181",
+              "onShelfDays": 918,
+              "productId": "amazon-美国-B0G3XDLGD8",
+              "regionCn": "美国",
+              "spItemCnt": 21,
+              "ratingRange": "3.9",
+              "catePath": "Cell Phones & Accessories->Cell Phones",
+              "title": "Apple iPhone 15 Pro, 256GB, Black Titanium - Unlocked (Renewed)",
+              "platform": "amazon",
+              "reviewCnt": 95,
+              "mainImgUrl": "https://image-transform.oss-accelerate.aliyuncs.com/baa151a3f496491e837a8a4ea462a410",
+              "onShelfDate": "2023-09-12",
+              "productUrl": "https://www.amazon.com/dp/B0CMZ5LT14/",
+              "soldCntHisByM": [
+                {
+                  "timeScale": "month",
+                  "trendValue": "2443.0",
+                  "timeValue": "202503",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "2335.0",
+                  "timeValue": "202504",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "669.0",
+                  "timeValue": "202505",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "2750.0",
+                  "timeValue": "202506",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "3036.0",
+                  "timeValue": "202507",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "1835.0",
+                  "timeValue": "202508",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "1762.0",
+                  "timeValue": "202509",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "2645.0",
+                  "timeValue": "202510",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "6491.0",
+                  "timeValue": "202511",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "10467.0",
+                  "timeValue": "202512",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "7531.0",
+                  "timeValue": "202601",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "7652.0",
+                  "timeValue": "202602",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                }
+              ],
+              "region": "US",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiNormalProductVO",
+              "priceRange": "US$489.95~US$613.0"
+            },
+            {
+              "spInfo": {
+                "launchDays": 299,
+                "launchTime": "2025-05-23",
+                "spRatingMin": 1.0,
+                "spRatingMax": 4.8,
+                "spRatingMid": 3.7,
+                "spPriceMin": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "94.7",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD94.7"
+                  },
+                  "desc": "簇内最低价"
+                },
+                "spPriceMax": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "349.99",
+                    "currencySymbol": "USD",
+                    "amountWithSymbol": "USD349.99"
+                  },
+                  "desc": "簇内最高价"
+                },
+                "spItmMidPrice": {
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+                  "value": {
+                    "amount": "1136.68",
+                    "currencySymbol": "￥",
+                    "amountWithSymbol": "￥1136.68"
+                  },
+                  "desc": "簇内平均价"
+                },
+                "spItmCnt": 7,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SpInfoApiVO",
+                "spId": "1728224198"
+              },
+              "soldCnt30d": "6488",
+              "onShelfDays": 427,
+              "productId": "amazon-美国-B0DT4XWXN5",
+              "regionCn": "美国",
+              "spItemCnt": 7,
+              "ratingRange": "4.3",
+              "catePath": "Cell Phones & Accessories->Cell Phones",
+              "title": "Samsung Galaxy A16 4G LTE (128GB + 4GB) International Model SM-A165F/DS Factory Unlocked, 6.7\", Dual SIM, 50MP Triple Camera (Case Bundle), Black",
+              "platform": "amazon",
+              "reviewCnt": 21,
+              "mainImgUrl": "https://image-transform.oss-accelerate.aliyuncs.com/a5b5deb042464fcaa5f4e1ddeb2843b0",
+              "onShelfDate": "2025-01-15",
+              "productUrl": "https://www.amazon.com/dp/B0DM1S54MZ/",
+              "soldCntHisByM": [
+                {
+                  "timeScale": "month",
+                  "trendValue": "507.0",
+                  "timeValue": "202503",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "968.0",
+                  "timeValue": "202504",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "1519.0",
+                  "timeValue": "202505",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "4334.0",
+                  "timeValue": "202506",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "3504.0",
+                  "timeValue": "202507",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "4504.0",
+                  "timeValue": "202508",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "5523.0",
+                  "timeValue": "202509",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "6288.0",
+                  "timeValue": "202510",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "5499.0",
+                  "timeValue": "202511",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "6499.0",
+                  "timeValue": "202512",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "5259.0",
+                  "timeValue": "202601",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                },
+                {
+                  "timeScale": "month",
+                  "trendValue": "6470.0",
+                  "timeValue": "202602",
+                  "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+                }
+              ],
+              "region": "US",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiNormalProductVO",
+              "priceRange": "US$129.99~US$132.98"
+            }
+          ],
+          "onShelfDate": "2026-01-08",
+          "soldCntHisByM": [
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202503",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202504",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202505",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202506",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202507",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202508",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202509",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202510",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202511",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "0.0",
+              "timeValue": "202512",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "2.0",
+              "timeValue": "202601",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            },
+            {
+              "timeScale": "month",
+              "trendValue": "1.0",
+              "timeValue": "202602",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.enums.ApiTimeTrend"
+            }
+          ],
+          "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiComparedProductVO",
+          "summary": "## 1. 核心差异总结  \n\n1.  **定位本质不同**  \n    *   **新品**：非手机本体，是**外接式磁吸自拍监看屏**，专注解决后置摄像头自拍/直播时的取景盲区问题，属配件类工具。  \n    *   **热销品**：全部为**完整功能智能手机**，集通信、计算、影像、系统生态于一体，属终端消费电子主力产品。  \n2.  **价格与价值锚点悬殊**  \n    *   **新品**：定价**29.99美元**，属超低门槛配件，强调即插即用、轻量化补充价值。  \n    *   **热销品**：价格区间**109.99–613.00美元**，以整机性能、品牌溢价、影像系统、系统体验为价值核心，价格锚定整机生命周期价值。  \n3.  **市场成熟度与信任基础断层**  \n    *   **新品**：**2026年1月上架，仅1销量、2.4分（12评）**，无历史数据支撑，存在显著新品信任赤字与体验验证空白。  \n    *   **热销品**：全部为**2020–2025年上市的成熟机型**，销量破万、评分4.0+、BSR排名靠前（最高#267），已通过大规模用户验证，具备强口碑与渠道信任背书。\n\n## 2. 详细差异对比\n\n\n<custom_table data='{\"headers\":[{\"align\":\"left\",\"key\":\"col_0\",\"title\":\"对比维度\"},{\"align\":\"left\",\"key\":\"col_1\",\"title\":\"新品\"},{\"align\":\"left\",\"key\":\"col_2\",\"title\":\"热销品1\"},{\"align\":\"left\",\"key\":\"col_3\",\"title\":\"热销品2\"},{\"align\":\"left\",\"key\":\"col_4\",\"title\":\"热销品3\"},{\"align\":\"left\",\"key\":\"col_5\",\"title\":\"热销品4\"},{\"align\":\"left\",\"key\":\"col_6\",\"title\":\"热销品5\"}],\"meta\":{\"columnCount\":7,\"hasImage\":true,\"rowCount\":11},\"rows\":[{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"商品图片\"},\"col_1\":{\"renderType\":\"image\",\"richContent\":[{\"alt\":\"新品\",\"content\":\"新品\",\"linkUrl\":\"https://www.amazon.com/dp/B0GCDMCZR6/\",\"type\":\"image\",\"url\":\"https://image-transform.oss-accelerate.aliyuncs.com/40acf68d632c49fc9ed35076ce8684c5\"}]},\"col_2\":{\"renderType\":\"image\",\"richContent\":[{\"alt\":\"热销品1\",\"content\":\"热销品1\",\"linkUrl\":\"https://www.amazon.com/dp/B09LNW3CY2/\",\"type\":\"image\",\"url\":\"https://image-transform.oss-accelerate.aliyuncs.com/bddf1f90db744e35881c1103edfd5c15\"}]},\"col_3\":{\"renderType\":\"image\",\"richContent\":[{\"alt\":\"热销品2\",\"content\":\"热销品2\",\"linkUrl\":\"https://www.amazon.com/dp/B08PP5MSVB/\",\"type\":\"image\",\"url\":\"https://image-transform.oss-accelerate.aliyuncs.com/9dd0c3b510ed41d49a4af635d78fbf4e\"}]},\"col_4\":{\"renderType\":\"image\",\"richContent\":[{\"alt\":\"热销品3\",\"content\":\"热销品3\",\"linkUrl\":\"https://www.amazon.com/dp/B0CP6DDN1H/\",\"type\":\"image\",\"url\":\"https://image-transform.oss-accelerate.aliyuncs.com/6c414ab553624ff7b554c63e121d8c2b\"}]},\"col_5\":{\"renderType\":\"image\",\"richContent\":[{\"alt\":\"热销品4\",\"content\":\"热销品4\",\"linkUrl\":\"https://www.amazon.com/dp/B0CMZ5LT14/\",\"type\":\"image\",\"url\":\"https://image-transform.oss-accelerate.aliyuncs.com/baa151a3f496491e837a8a4ea462a410\"}]},\"col_6\":{\"renderType\":\"image\",\"richContent\":[{\"alt\":\"热销品5\",\"content\":\"热销品5\",\"linkUrl\":\"https://www.amazon.com/dp/B0DM1S54MZ/\",\"type\":\"image\",\"url\":\"https://image-transform.oss-accelerate.aliyuncs.com/a5b5deb042464fcaa5f4e1ddeb2843b0\"}]}},\"rowId\":\"row_0\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"价格\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"US$29.99\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"US$245.3 - US$472.99\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"US$198.0 - US$385.42\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"US$109.99 - US$299.99\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"US$489.95 - US$613.0\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"US$129.99 - US$132.98\"}},\"rowId\":\"row_1\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"销量\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"1\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"10779\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"9757\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"9542\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"7181\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"6488\"}},\"rowId\":\"row_2\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"评分\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"2.4\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"4.1\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"4.0\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"4.3\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"3.9\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"4.3\"}},\"rowId\":\"row_3\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"上架时间\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"2026-01-08\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"2021-11-11\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"2020-12-03\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"2024-02-08\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"2023-09-12\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"2025-01-15\"}},\"rowId\":\"row_4\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"产品类型\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"✅ 外接式磁吸自拍监看屏（配件）\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"❌ 全功能智能手机\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"❌ 全功能智能手机\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"❌ 全功能智能手机\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"❌ 全功能智能手机\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"❌ 全功能智能手机\"}},\"rowId\":\"row_5\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"核心功能\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"✅ 后置摄像头实时监看、一键翻转、三档亮度调节、蓝牙遥控\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"❌ 主摄/超广角/长焦影像系统、5G通信、A15芯片运算\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"❌ 主摄/超广角影像、5G通信、A14芯片运算\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"❌ 50MP主摄+OIS、120Hz高刷屏、5000mAh电池\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"❌ 48MP主摄+3x长焦+超广角、A17 Pro芯片、LTPO自适应刷新\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"❌ 50MP双主摄+微距、Super AMOLED 90Hz屏、5000mAh电池\"}},\"rowId\":\"row_6\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"技术原理\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"✅ 磁吸+Type-C供电+无线投屏（非独立成像）\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"❌ 自主成像+蜂窝通信+SoC全栈处理\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"❌ 自主成像+蜂窝通信+SoC全栈处理\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"❌ 自主成像+蜂窝通信+SoC全栈处理\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"❌ 自主成像+蜂窝通信+SoC全栈处理\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"❌ 自主成像+蜂窝通信+SoC全栈处理\"}},\"rowId\":\"row_7\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"材质与便携性\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"✅ 塑料机身，4.1×2.35×0.4英寸，0.22磅，极简便携\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"❌ 玻璃+铝金属机身，6.1英寸整机，约174克，标准手机尺寸\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"❌ 玻璃+铝金属机身，6.1英寸整机，约164克，标准手机尺寸\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"❌ 塑料+仿皮革背板，6.7英寸整机，9.1盎司（约258克），大屏便携性弱\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"❌ 钛金属+陶瓷盾，6.1英寸整机，201克，高端工艺但重量显著\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"❌ 塑料机身，6.7英寸整机，2.39盎司（约68克），轻量化设计\"}},\"rowId\":\"row_8\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"供电方式\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"✅ Type-C接口供电（兼容移动电源/笔记本/车充）+ 内置9V电池（含）\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"❌ 内置不可拆卸锂离子电池（约3240mAh）\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"❌ 内置不可拆卸锂离子电池（2815mAh）\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"❌ 内置不可拆卸锂离子电池（5000mAh）\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"❌ 内置不可拆卸锂离子电池（3274mAh）\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"❌ 内置不可拆卸锂离子电池（5000mAh）\"}},\"rowId\":\"row_9\"},{\"cells\":{\"col_0\":{\"renderType\":\"text\",\"value\":\"兼容性策略\"},\"col_1\":{\"renderType\":\"text\",\"value\":\"✅ 通用磁吸贴片适配iPhone/Android（含非磁吸机型）\"},\"col_2\":{\"renderType\":\"text\",\"value\":\"❌ iOS生态封闭，仅兼容Apple服务与配件\"},\"col_3\":{\"renderType\":\"text\",\"value\":\"❌ iOS生态封闭，仅兼容Apple服务与配件\"},\"col_4\":{\"renderType\":\"text\",\"value\":\"❌ Android开放生态，兼容主流App及第三方配件\"},\"col_5\":{\"renderType\":\"text\",\"value\":\"❌ iOS生态封闭，仅兼容Apple服务与配件\"},\"col_6\":{\"renderType\":\"text\",\"value\":\"❌ Android开放生态，兼容主流App及第三方配件\"}},\"rowId\":\"row_10\"}]}'/>",
+          "spInfo": {
+            "launchDays": 48,
+            "launchTime": "2026-01-29",
+            "spRatingMin": 1.5,
+            "spRatingMax": 5.0,
+            "spRatingMid": 3.2,
+            "spPriceMin": {
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "value": {
+                "amount": "9.98",
+                "currencySymbol": "USD",
+                "amountWithSymbol": "USD9.98"
+              },
+              "desc": "簇内最低价"
+            },
+            "spPriceMax": {
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "value": {
+                "amount": "87.62",
+                "currencySymbol": "USD",
+                "amountWithSymbol": "USD87.62"
+              },
+              "desc": "簇内最高价"
+            },
+            "spItmMidPrice": {
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "value": {
+                "amount": "260.72",
+                "currencySymbol": "￥",
+                "amountWithSymbol": "￥260.72"
+              },
+              "desc": "簇内平均价"
+            },
+            "spItmCnt": 9,
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SpInfoApiVO",
+            "spId": "1204754134"
+          },
+          "soldCnt30d": "1",
+          "productId": "amazon-美国-B0GGB7JRWF",
+          "regionCn": "美国",
+          "spItemCnt": 9,
+          "spPriceAvg": {
+            "name": "平均价格",
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+            "value": {
+              "amount": "29.99",
+              "currencySymbol": "US$",
+              "amountWithSymbol": "US$29.99"
+            },
+            "desc": "平均价格=月销售额/月销量，可用于了解该细分市场中普遍商品的价格水平"
+          },
+          "catePath": "Cell Phones & Accessories->Cell Phones",
+          "mainImgUrl": "https://image-transform.oss-accelerate.aliyuncs.com/40acf68d632c49fc9ed35076ce8684c5",
+          "productUrl": "https://www.amazon.com/dp/B0GCDMCZR6/",
+          "region": "US",
+          "priceRange": "US$29.99"
+        }
+      ]
+    },
+    "success": true,
+    "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiResultModel"
+  }
+}
