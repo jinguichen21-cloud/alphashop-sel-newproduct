@@ -1,0 +1,9 @@
+{
+  "name": "alphashop-sel-newproduct",
+  "version": "1.0.0",
+  "description": "1688遨虾AI新品选品SKILL：基于关键词和商品筛选条件生成深度市场分析和新品推荐报告",
+  "scripts": {
+    "report": "scripts/selection.py"
+  },
+  "env": []
+}
