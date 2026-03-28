@@ -1,0 +1,1543 @@
+{
+  "api": "opp.selection.keyword.search",
+  "version": "1.0",
+  "resultCode": "SUCCESS",
+  "requestId": "213e044817738308497262477e0eb5",
+  "result": {
+    "data": {
+      "keywordList": [
+        {
+          "keywordCn": "手机",
+          "oppScoreDesc": "击败同一级类目94.2%关键词",
+          "radar": {
+            "propertyList": [
+              {
+                "name": "市场需求分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 43.65
+              },
+              {
+                "name": "市场供给分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 46.3
+              },
+              {
+                "name": "市场销售分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 44.6
+              },
+              {
+                "name": "新品分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 10.1
+              },
+              {
+                "name": "评价分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 86.7
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO",
+            "radarDescription": "keywordRadarDesc"
+          },
+          "oppScore": "37.2",
+          "salesInfo": {
+            "soldCnt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "8.8%",
+                "direction": "UP"
+              },
+              "name": "30天销量",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": "22w+",
+              "desc": "关键词在该国亚马逊最近30天的累计销量"
+            },
+            "soldAmt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "8.7%",
+                "direction": "UP"
+              },
+              "name": "30天销售额",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D_AMT",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": {
+                "amount": "4952.5w+",
+                "currencySymbol": "US$",
+                "class": "com.alibaba.global1688.sel.application.service.response.badCaseVO.MoneyVO",
+                "amountWithSymbol": "US$4952.5w+"
+              },
+              "desc": "关键词在该国亚马逊最近30天的累计销售额"
+            },
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SalesInfoApiVO"
+          },
+          "demandInfo": {
+            "searchRankDesc": "最新1个月亚马逊搜索排名",
+            "rankTrendsPointName": "排名",
+            "searchRank": "# 2.5k+",
+            "rankTrendsDesc": "近12个月亚马逊搜索排名趋势",
+            "rankTrends": [
+              {
+                "x": "202503",
+                "y": 2200.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202504",
+                "y": 2179.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202505",
+                "y": 2172.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202506",
+                "y": 2321.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202507",
+                "y": 2315.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202508",
+                "y": 2260.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202509",
+                "y": 2212.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202510",
+                "y": 2572.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202511",
+                "y": 1912.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202512",
+                "y": 2655.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202601",
+                "y": 2866.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202602",
+                "y": 2479.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.DemandInfoApiVO"
+          },
+          "keyword": "phone",
+          "region": "US",
+          "class": "com.alibaba.global1688.ai.sel.api.hsf.response.KeywordApiVO",
+          "platform": "amazon"
+        },
+        {
+          "keywordCn": "手机",
+          "oppScoreDesc": "击败同一级类目89.6%关键词",
+          "radar": {
+            "propertyList": [
+              {
+                "name": "市场需求分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 34.33
+              },
+              {
+                "name": "市场供给分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 46.9
+              },
+              {
+                "name": "市场销售分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 42.9
+              },
+              {
+                "name": "新品分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 11.4
+              },
+              {
+                "name": "评价分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 86.3
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO",
+            "radarDescription": "keywordRadarDesc"
+          },
+          "oppScore": "36.1",
+          "salesInfo": {
+            "soldCnt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "5.1%",
+                "direction": "UP"
+              },
+              "name": "30天销量",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": "12.2w+",
+              "desc": "关键词在该国亚马逊最近30天的累计销量"
+            },
+            "soldAmt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "3.3%",
+                "direction": "UP"
+              },
+              "name": "30天销售额",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D_AMT",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": {
+                "amount": "2966w+",
+                "currencySymbol": "US$",
+                "class": "com.alibaba.global1688.sel.application.service.response.badCaseVO.MoneyVO",
+                "amountWithSymbol": "US$2966w+"
+              },
+              "desc": "关键词在该国亚马逊最近30天的累计销售额"
+            },
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SalesInfoApiVO"
+          },
+          "demandInfo": {
+            "searchRankDesc": "最新1个月亚马逊搜索排名",
+            "rankTrendsPointName": "排名",
+            "searchRank": "# 9.0k+",
+            "rankTrendsDesc": "近12个月亚马逊搜索排名趋势",
+            "rankTrends": [
+              {
+                "x": "202503",
+                "y": 7717.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202504",
+                "y": 8060.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202505",
+                "y": 7706.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202506",
+                "y": 8294.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202507",
+                "y": 6489.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202508",
+                "y": 7940.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202509",
+                "y": 8182.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202510",
+                "y": 7793.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202511",
+                "y": 6471.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202512",
+                "y": 8608.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202601",
+                "y": 9648.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202602",
+                "y": 9030.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.DemandInfoApiVO"
+          },
+          "keyword": "cell phone",
+          "region": "US",
+          "class": "com.alibaba.global1688.ai.sel.api.hsf.response.KeywordApiVO",
+          "platform": "amazon"
+        },
+        {
+          "keywordCn": "智能手机",
+          "oppScoreDesc": "击败同一级类目82.2%关键词",
+          "radar": {
+            "propertyList": [
+              {
+                "name": "市场需求分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 21.94
+              },
+              {
+                "name": "市场供给分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 47.0
+              },
+              {
+                "name": "市场销售分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 42.6
+              },
+              {
+                "name": "新品分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 13.4
+              },
+              {
+                "name": "评价分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 85.9
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO",
+            "radarDescription": "keywordRadarDesc"
+          },
+          "oppScore": "35.0",
+          "salesInfo": {
+            "soldCnt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "8.5%",
+                "direction": "UP"
+              },
+              "name": "30天销量",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": "11.3w+",
+              "desc": "关键词在该国亚马逊最近30天的累计销量"
+            },
+            "soldAmt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "2.2%",
+                "direction": "UP"
+              },
+              "name": "30天销售额",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D_AMT",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": {
+                "amount": "2585.8w+",
+                "currencySymbol": "US$",
+                "class": "com.alibaba.global1688.sel.application.service.response.badCaseVO.MoneyVO",
+                "amountWithSymbol": "US$2585.8w+"
+              },
+              "desc": "关键词在该国亚马逊最近30天的累计销售额"
+            },
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SalesInfoApiVO"
+          },
+          "demandInfo": {
+            "searchRankDesc": "最新1个月亚马逊搜索排名",
+            "rankTrendsPointName": "排名",
+            "searchRank": "# 5w+",
+            "rankTrendsDesc": "近12个月亚马逊搜索排名趋势",
+            "rankTrends": [
+              {
+                "x": "202503",
+                "y": 44038.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202504",
+                "y": 42970.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202505",
+                "y": 45447.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202506",
+                "y": 45133.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202507",
+                "y": 40765.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202508",
+                "y": 45911.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202509",
+                "y": 42330.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202510",
+                "y": 50740.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202511",
+                "y": 39252.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202512",
+                "y": 47464.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202601",
+                "y": 50142.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202602",
+                "y": 50359.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.DemandInfoApiVO"
+          },
+          "keyword": "smart phone",
+          "region": "US",
+          "class": "com.alibaba.global1688.ai.sel.api.hsf.response.KeywordApiVO",
+          "platform": "amazon"
+        },
+        {
+          "keywordCn": "安卓手机",
+          "oppScoreDesc": "击败同一级类目89.1%关键词",
+          "radar": {
+            "propertyList": [
+              {
+                "name": "市场需求分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 32.11
+              },
+              {
+                "name": "市场供给分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 46.3
+              },
+              {
+                "name": "市场销售分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 44.3
+              },
+              {
+                "name": "新品分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 11.6
+              },
+              {
+                "name": "评价分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 86.6
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO",
+            "radarDescription": "keywordRadarDesc"
+          },
+          "oppScore": "36.0",
+          "salesInfo": {
+            "soldCnt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "6.4%",
+                "direction": "UP"
+              },
+              "name": "30天销量",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": "18.8w+",
+              "desc": "关键词在该国亚马逊最近30天的累计销量"
+            },
+            "soldAmt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "3.2%",
+                "direction": "UP"
+              },
+              "name": "30天销售额",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D_AMT",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": {
+                "amount": "4808.6w+",
+                "currencySymbol": "US$",
+                "class": "com.alibaba.global1688.sel.application.service.response.badCaseVO.MoneyVO",
+                "amountWithSymbol": "US$4808.6w+"
+              },
+              "desc": "关键词在该国亚马逊最近30天的累计销售额"
+            },
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SalesInfoApiVO"
+          },
+          "demandInfo": {
+            "searchRankDesc": "最新1个月亚马逊搜索排名",
+            "rankTrendsPointName": "排名",
+            "searchRank": "# 1.2w+",
+            "rankTrendsDesc": "近12个月亚马逊搜索排名趋势",
+            "rankTrends": [
+              {
+                "x": "202503",
+                "y": 9857.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202504",
+                "y": 10541.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202505",
+                "y": 11074.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202506",
+                "y": 11581.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202507",
+                "y": 10152.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202508",
+                "y": 11339.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202509",
+                "y": 11122.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202510",
+                "y": 12617.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202511",
+                "y": 10363.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202512",
+                "y": 12622.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202601",
+                "y": 13680.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202602",
+                "y": 12284.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.DemandInfoApiVO"
+          },
+          "keyword": "android phone",
+          "region": "US",
+          "class": "com.alibaba.global1688.ai.sel.api.hsf.response.KeywordApiVO",
+          "platform": "amazon"
+        },
+        {
+          "keywordCn": "苹果手机",
+          "oppScoreDesc": "击败同一级类目21.4%关键词",
+          "radar": {
+            "propertyList": [
+              {
+                "name": "市场需求分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 7.21
+              },
+              {
+                "name": "市场供给分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 51.4
+              },
+              {
+                "name": "市场销售分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 41.9
+              },
+              {
+                "name": "新品分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 4.3
+              },
+              {
+                "name": "评价分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 91.6
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO",
+            "radarDescription": "keywordRadarDesc"
+          },
+          "oppScore": "30.6",
+          "salesInfo": {
+            "soldCnt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "19.0%",
+                "direction": "UP"
+              },
+              "name": "30天销量",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": "7.5w+",
+              "desc": "关键词在该国亚马逊最近30天的累计销量"
+            },
+            "soldAmt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "20.1%",
+                "direction": "UP"
+              },
+              "name": "30天销售额",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D_AMT",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": {
+                "amount": "2475.6w+",
+                "currencySymbol": "US$",
+                "class": "com.alibaba.global1688.sel.application.service.response.badCaseVO.MoneyVO",
+                "amountWithSymbol": "US$2475.6w+"
+              },
+              "desc": "关键词在该国亚马逊最近30天的累计销售额"
+            },
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SalesInfoApiVO"
+          },
+          "demandInfo": {
+            "searchRankDesc": "最新1个月亚马逊搜索排名",
+            "rankTrendsPointName": "排名",
+            "searchRank": "# 38.8w+",
+            "rankTrendsDesc": "近12个月亚马逊搜索排名趋势",
+            "rankTrends": [
+              {
+                "x": "202503",
+                "y": 176338.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202504",
+                "y": 202935.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202505",
+                "y": 177450.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202506",
+                "y": 273374.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202507",
+                "y": 220823.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202508",
+                "y": 274372.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202509",
+                "y": 251240.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202510",
+                "y": 279288.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202511",
+                "y": 225910.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202512",
+                "y": 341538.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202601",
+                "y": 460141.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202602",
+                "y": 388400.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.DemandInfoApiVO"
+          },
+          "keyword": "iphone phone",
+          "region": "US",
+          "class": "com.alibaba.global1688.ai.sel.api.hsf.response.KeywordApiVO",
+          "platform": "amazon"
+        },
+        {
+          "keywordCn": "苹果手机",
+          "oppScoreDesc": "击败同一级类目58.6%关键词",
+          "radar": {
+            "propertyList": [
+              {
+                "name": "市场需求分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 17.87
+              },
+              {
+                "name": "市场供给分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 56.4
+              },
+              {
+                "name": "市场销售分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 41.8
+              },
+              {
+                "name": "新品分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 4.6
+              },
+              {
+                "name": "评价分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 91.6
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO",
+            "radarDescription": "keywordRadarDesc"
+          },
+          "oppScore": "33.0",
+          "salesInfo": {
+            "soldCnt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "23.1%",
+                "direction": "UP"
+              },
+              "name": "30天销量",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": "7.1w+",
+              "desc": "关键词在该国亚马逊最近30天的累计销量"
+            },
+            "soldAmt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "26.3%",
+                "direction": "UP"
+              },
+              "name": "30天销售额",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D_AMT",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": {
+                "amount": "2416.9w+",
+                "currencySymbol": "US$",
+                "class": "com.alibaba.global1688.sel.application.service.response.badCaseVO.MoneyVO",
+                "amountWithSymbol": "US$2416.9w+"
+              },
+              "desc": "关键词在该国亚马逊最近30天的累计销售额"
+            },
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SalesInfoApiVO"
+          },
+          "demandInfo": {
+            "searchRankDesc": "最新1个月亚马逊搜索排名",
+            "rankTrendsPointName": "排名",
+            "searchRank": "# 8.8w+",
+            "rankTrendsDesc": "近12个月亚马逊搜索排名趋势",
+            "rankTrends": [
+              {
+                "x": "202503",
+                "y": 60123.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202504",
+                "y": 67863.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202505",
+                "y": 66647.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202506",
+                "y": 71902.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202507",
+                "y": 58312.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202508",
+                "y": 75058.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202509",
+                "y": 65649.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202510",
+                "y": 82732.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202511",
+                "y": 54797.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202512",
+                "y": 87153.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202601",
+                "y": 98458.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202602",
+                "y": 88536.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.DemandInfoApiVO"
+          },
+          "keyword": "apple phone",
+          "region": "US",
+          "class": "com.alibaba.global1688.ai.sel.api.hsf.response.KeywordApiVO",
+          "platform": "amazon"
+        },
+        {
+          "keywordCn": "安卓手机",
+          "oppScoreDesc": "击败同一级类目27.0%关键词",
+          "radar": {
+            "propertyList": [
+              {
+                "name": "市场需求分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 0.14
+              },
+              {
+                "name": "市场供给分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 46.9
+              },
+              {
+                "name": "市场销售分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 43.2
+              },
+              {
+                "name": "新品分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 11.5
+              },
+              {
+                "name": "评价分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 86.3
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO",
+            "radarDescription": "keywordRadarDesc"
+          },
+          "oppScore": "31.1",
+          "salesInfo": {
+            "soldCnt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "3.8%",
+                "direction": "UP"
+              },
+              "name": "30天销量",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": "13.1w+",
+              "desc": "关键词在该国亚马逊最近30天的累计销量"
+            },
+            "soldAmt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "1.1%",
+                "direction": "UP"
+              },
+              "name": "30天销售额",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D_AMT",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": {
+                "amount": "3314.4w+",
+                "currencySymbol": "US$",
+                "class": "com.alibaba.global1688.sel.application.service.response.badCaseVO.MoneyVO",
+                "amountWithSymbol": "US$3314.4w+"
+              },
+              "desc": "关键词在该国亚马逊最近30天的累计销售额"
+            },
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SalesInfoApiVO"
+          },
+          "demandInfo": {
+            "searchRankDesc": "最新1个月亚马逊搜索排名",
+            "rankTrendsPointName": "排名",
+            "searchRank": "# 103.5w+",
+            "rankTrendsDesc": "近12个月亚马逊搜索排名趋势",
+            "rankTrends": [
+              {
+                "x": "202503",
+                "y": 869605.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202504",
+                "y": 924544.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202505",
+                "y": 820673.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202506",
+                "y": 798501.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202507",
+                "y": 647942.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202508",
+                "y": 965860.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202509",
+                "y": 698150.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202510",
+                "y": 885198.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202511",
+                "y": 707268.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202512",
+                "y": 842811.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202602",
+                "y": 1035622.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.DemandInfoApiVO"
+          },
+          "keyword": "android cell phone",
+          "region": "US",
+          "class": "com.alibaba.global1688.ai.sel.api.hsf.response.KeywordApiVO",
+          "platform": "amazon"
+        },
+        {
+          "keywordCn": "游戏手机",
+          "oppScoreDesc": "击败同一级类目80.2%关键词",
+          "radar": {
+            "propertyList": [
+              {
+                "name": "市场需求分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 19.43
+              },
+              {
+                "name": "市场供给分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 48.4
+              },
+              {
+                "name": "市场销售分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 39.9
+              },
+              {
+                "name": "新品分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 15.4
+              },
+              {
+                "name": "评价分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 82.7
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO",
+            "radarDescription": "keywordRadarDesc"
+          },
+          "oppScore": "34.7",
+          "salesInfo": {
+            "soldCnt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "-7.2%",
+                "direction": "DOWN"
+              },
+              "name": "30天销量",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": "5.2w+",
+              "desc": "关键词在该国亚马逊最近30天的累计销量"
+            },
+            "soldAmt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "-20.8%",
+                "direction": "DOWN"
+              },
+              "name": "30天销售额",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D_AMT",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": {
+                "amount": "928.5w+",
+                "currencySymbol": "US$",
+                "class": "com.alibaba.global1688.sel.application.service.response.badCaseVO.MoneyVO",
+                "amountWithSymbol": "US$928.5w+"
+              },
+              "desc": "关键词在该国亚马逊最近30天的累计销售额"
+            },
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SalesInfoApiVO"
+          },
+          "demandInfo": {
+            "searchRankDesc": "最新1个月亚马逊搜索排名",
+            "rankTrendsPointName": "排名",
+            "searchRank": "# 7.1w+",
+            "rankTrendsDesc": "近12个月亚马逊搜索排名趋势",
+            "rankTrends": [
+              {
+                "x": "202503",
+                "y": 58559.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202504",
+                "y": 58009.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202505",
+                "y": 59817.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202506",
+                "y": 60978.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202507",
+                "y": 65866.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202508",
+                "y": 71506.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202509",
+                "y": 68264.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202510",
+                "y": 81015.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202511",
+                "y": 67522.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202512",
+                "y": 87179.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202601",
+                "y": 79725.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202602",
+                "y": 71390.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.DemandInfoApiVO"
+          },
+          "keyword": "gaming phone",
+          "region": "US",
+          "class": "com.alibaba.global1688.ai.sel.api.hsf.response.KeywordApiVO",
+          "platform": "amazon"
+        },
+        {
+          "keywordCn": "三星手机",
+          "oppScoreDesc": "击败同一级类目94.1%关键词",
+          "radar": {
+            "propertyList": [
+              {
+                "name": "市场需求分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 35.83
+              },
+              {
+                "name": "市场供给分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 50.1
+              },
+              {
+                "name": "市场销售分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 41.6
+              },
+              {
+                "name": "新品分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 11.1
+              },
+              {
+                "name": "评价分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 90.9
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO",
+            "radarDescription": "keywordRadarDesc"
+          },
+          "oppScore": "37.2",
+          "salesInfo": {
+            "soldCnt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "10.0%",
+                "direction": "UP"
+              },
+              "name": "30天销量",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": "7.1w+",
+              "desc": "关键词在该国亚马逊最近30天的累计销量"
+            },
+            "soldAmt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "0.7%",
+                "direction": "UP"
+              },
+              "name": "30天销售额",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D_AMT",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": {
+                "amount": "2164.6w+",
+                "currencySymbol": "US$",
+                "class": "com.alibaba.global1688.sel.application.service.response.badCaseVO.MoneyVO",
+                "amountWithSymbol": "US$2164.6w+"
+              },
+              "desc": "关键词在该国亚马逊最近30天的累计销售额"
+            },
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SalesInfoApiVO"
+          },
+          "demandInfo": {
+            "searchRankDesc": "最新1个月亚马逊搜索排名",
+            "rankTrendsPointName": "排名",
+            "searchRank": "# 7.3k+",
+            "rankTrendsDesc": "近12个月亚马逊搜索排名趋势",
+            "rankTrends": [
+              {
+                "x": "202503",
+                "y": 9305.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202504",
+                "y": 7176.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202505",
+                "y": 6905.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202506",
+                "y": 7414.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202507",
+                "y": 5583.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202508",
+                "y": 5942.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202509",
+                "y": 5248.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202510",
+                "y": 5633.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202511",
+                "y": 4768.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202512",
+                "y": 7032.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202601",
+                "y": 7967.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202602",
+                "y": 7334.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.DemandInfoApiVO"
+          },
+          "keyword": "samsung phone",
+          "region": "US",
+          "class": "com.alibaba.global1688.ai.sel.api.hsf.response.KeywordApiVO",
+          "platform": "amazon"
+        },
+        {
+          "keywordCn": "手机键盘",
+          "oppScoreDesc": "击败同一级类目55.1%关键词",
+          "radar": {
+            "propertyList": [
+              {
+                "name": "市场需求分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 13.63
+              },
+              {
+                "name": "市场供给分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 49.4
+              },
+              {
+                "name": "市场销售分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 43.5
+              },
+              {
+                "name": "新品分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 8.8
+              },
+              {
+                "name": "评价分",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO$Property",
+                "value": 88.4
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.RadarApiVO",
+            "radarDescription": "keywordRadarDesc"
+          },
+          "oppScore": "32.8",
+          "salesInfo": {
+            "soldCnt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "-4.1%",
+                "direction": "DOWN"
+              },
+              "name": "30天销量",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": "29.5w+",
+              "desc": "关键词在该国亚马逊最近30天的累计销量"
+            },
+            "soldAmt30d": {
+              "growthRate": {
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.GrowthRateApiVO",
+                "value": "-4.3%",
+                "direction": "DOWN"
+              },
+              "name": "30天销售额",
+              "class": "com.alibaba.global1688.ai.sel.api.hsf.response.PropertyApiVO",
+              "valueLevelDetail": {
+                "valueLevelDesc": "高热度：近期需求活跃，但可能伴随较强竞争;\\n中高热度：当前销售表现稳健，叶子类目中的主流梯队;\\\\n中低热度：近期较平淡，适合小批量测试或差异化切入;\\n低热度：短期需求较弱，需结合趋势、季节性综合判断",
+                "valueLevelType": "SOLD_CNT_30D_AMT",
+                "valueLevel": "BEST",
+                "text": "高热度",
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiValueLevelDetail"
+              },
+              "value": {
+                "amount": "1511.3w+",
+                "currencySymbol": "US$",
+                "class": "com.alibaba.global1688.sel.application.service.response.badCaseVO.MoneyVO",
+                "amountWithSymbol": "US$1511.3w+"
+              },
+              "desc": "关键词在该国亚马逊最近30天的累计销售额"
+            },
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.SalesInfoApiVO"
+          },
+          "demandInfo": {
+            "searchRankDesc": "最新1个月亚马逊搜索排名",
+            "rankTrendsPointName": "排名",
+            "searchRank": "# 15.9w+",
+            "rankTrendsDesc": "近12个月亚马逊搜索排名趋势",
+            "rankTrends": [
+              {
+                "x": "202503",
+                "y": 259704.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202504",
+                "y": 303615.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202505",
+                "y": 296347.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202506",
+                "y": 320328.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202507",
+                "y": 295831.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202508",
+                "y": 275184.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202509",
+                "y": 277727.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202510",
+                "y": 304939.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202511",
+                "y": 210122.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202512",
+                "y": 275623.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202601",
+                "y": 184679.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              },
+              {
+                "x": "202602",
+                "y": 159477.0,
+                "class": "com.alibaba.global1688.ai.sel.api.hsf.response.TrendApiVO"
+              }
+            ],
+            "class": "com.alibaba.global1688.ai.sel.api.hsf.response.DemandInfoApiVO"
+          },
+          "keyword": "phone keyboard",
+          "region": "US",
+          "class": "com.alibaba.global1688.ai.sel.api.hsf.response.KeywordApiVO",
+          "platform": "amazon"
+        }
+      ],
+      "totalCount": 10,
+      "region": "US",
+      "class": "com.alibaba.global1688.ai.sel.api.hsf.response.KeywordSearchApiResponse",
+      "platform": "amazon"
+    },
+    "success": true,
+    "class": "com.alibaba.global1688.ai.sel.api.hsf.response.ApiResultModel"
+  }
+}
